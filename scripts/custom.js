@@ -51,3 +51,50 @@ var action=$(this).attr('action');$('#contact #submit').after('<img src="images/
 '<span class="'+fourthStar+'"></span>'+
 '<span class="'+fifthStar+'"></span>');}
 var fiveStars=starsOutput('star','star','star','star','star');var fourHalfStars=starsOutput('star','star','star','star','star half');var fourStars=starsOutput('star','star','star','star','star empty');var threeHalfStars=starsOutput('star','star','star','star half','star empty');var threeStars=starsOutput('star','star','star','star empty','star empty');var twoHalfStars=starsOutput('star','star','star half','star empty','star empty');var twoStars=starsOutput('star','star','star empty','star empty','star empty');var oneHalfStar=starsOutput('star','star half','star empty','star empty','star empty');var oneStar=starsOutput('star','star empty','star empty','star empty','star empty');if(dataRating>=4.75){$(this).append(fiveStars);}else if(dataRating>=4.25){$(this).append(fourHalfStars);}else if(dataRating>=3.75){$(this).append(fourStars);}else if(dataRating>=3.25){$(this).append(threeHalfStars);}else if(dataRating>=2.75){$(this).append(threeStars);}else if(dataRating>=2.25){$(this).append(twoHalfStars);}else if(dataRating>=1.75){$(this).append(twoStars);}else if(dataRating>=1.25){$(this).append(oneHalfStar);}else if(dataRating<1.25){$(this).append(oneStar);}});}starRating('.star-rating');
+$("#signupForm").validate({
+    rules: {
+        username2: {required: !0, minlength: 4},
+        Mobile: {required: !0, minlength: 2,number: true},
+        password1: {required: !0, minlength: 5},
+        confirm_password1: {required: !0, minlength: 5, equalTo: "#password1"},
+        email: {required: !0, email: !0},
+        agree: "required"
+    },
+    messages: {
+        username2: {
+            required: "Please enter a Name",
+            minlength: "Your username must consist of at least 4 characters"
+        },
+        Mobile:{
+            required: "Please enter a Valid Number",
+        },
+        password: {
+            required: "Please provide a password",
+            minlength: "Your password must be at least 5 characters long"
+        },
+        confirm_password: {
+            required: "Please provide a password",
+            minlength: "Your password must be at least 5 characters long",
+            equalTo: "Please enter the same password as above"
+        },
+        email: "Please enter a valid email address"
+    }
+});
+
+$("#LogingForm").validate({
+    rules: {
+        username2: {required: !0, minlength: 4},
+        password: {required: !0, minlength: 5},
+        Email1: {required: !0, email: !0},
+        agree: "required"
+    },
+    messages: {
+
+        password: {
+            required: "Please provide a password",
+            minlength: "Your password must be at least 5 characters long"
+        },
+
+        Email1: "Please enter a valid email address"
+    }
+});

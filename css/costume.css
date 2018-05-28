@@ -1,0 +1,25 @@
+#logo img{
+    max-height: 63px;
+}
+#logo{
+    margin-top: -10px;
+}
+label.error, label.error {
+    /* remove the next line when you have trouble in IE6 with labels in list */
+    color: red;
+    font-style: italic;
+    margin-bottom: -10px;
+}
+input.error, select.error { border: 1px dotted red !important; }
+.sign-in-form label i{
+    bottom: auto;
+    top: 50px;
+}
+#LogingForm .social-icons li{
+    position: relative;
+    top: 0;
+    transition: all 0.4s;
+}
+#LogingForm .social-icons li:hover{
+    top: -3px;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-
+<html>
 <head>
 
     <!-- Basic Page Needs
@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="css/jquery-ui.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/colors/main.css" id="colors">
+    <link rel="stylesheet" href="css/costume.css">
+
+
 
 </head>
 
@@ -100,14 +103,15 @@
 
                             <!-- Login -->
                             <div class="tab-content" id="tab1" style="display: none;">
-                                <form method="post" class="login">
+                                <form id="LogingForm"  method="post" class="login">
 
                                     <p class="form-row form-row-wide">
-                                        <label for="username">Email:
+                                        <label for="Email1">Email:
                                             <i class="im im-icon-Mail"></i>
-                                            <input type="text" class="input-text" name="username" id="username"
+                                            <input type="email" class="input-text" name="Email1" id="Email1"
                                                    value=""/>
                                         </label>
+
                                     </p>
 
                                     <p class="form-row form-row-wide">
@@ -120,7 +124,7 @@
 										<a href="#">Lost Your Password?</a>
 									</span>
                                     </p>
-                                    <ul class="social-icons rounded pull-right">
+                                    <ul class="social-icons color rounded pull-right">
                                         <li><a class="facebook" href="#"><i class="icon-facebook"></i></a></li>
                                         <li><a class="twitter" href="#"><i class="icon-twitter"></i></a></li>
                                         <li><a class="gplus" href="#"><i class="icon-gplus"></i></a></li>
@@ -142,7 +146,7 @@
                             <!-- Register -->
                             <div class="tab-content" id="tab2" style="display: none;">
 
-                                <form method="post" class="register">
+                                <form id="signupForm" method="post" class="register">
 
                                     <p class="form-row form-row-wide">
                                         <label for="username2">Name:
@@ -173,9 +177,9 @@
                                     </p>
 
                                     <p class="form-row form-row-wide">
-                                        <label for="password2">Repeat Password:
+                                        <label for="confirm_password1">Repeat Password:
                                             <i class="im im-icon-Lock-2"></i>
-                                            <input class="input-text" type="password" name="password2" id="password2"/>
+                                            <input class="input-text" type="password" name="confirm_password1" id="confirm_password1"/>
                                         </label>
                                     </p>
 
@@ -359,6 +363,7 @@
 ================================================== -->
 <script data-cfasync="false" src="../../cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script>
 <script type="text/javascript" src="scripts/jquery-2.2.0.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.validate.min.js"></script>
 <script type="text/javascript" src="scripts/mmenu.min.js"></script>
 <script type="text/javascript" src="scripts/chosen.min.js"></script>
 <script type="text/javascript" src="scripts/slick.min.js"></script>
@@ -371,6 +376,10 @@
 <script type="text/javascript" src="scripts/custom.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
+<script>
+
+
+</script>
 
 <!-- Google Autocomplete -->
 <script>
