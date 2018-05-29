@@ -23,3 +23,162 @@ input.error, select.error { border: 1px dotted red !important; }
 #LogingForm .social-icons li:hover{
     top: -3px;
 }
+.forget-pass .main-search-inner {
+    transform: translate(0, 0);
+    background-color: #7fbd42;
+    background-image: url(../images/black-linen-2.png);
+    /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    color: #333333;
+   padding: 50px 0;
+}
+
+.forget-pass .box-form {
+    margin: 0 auto;
+    width: 80%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex: 1 1 100%;
+    align-items: stretch;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 6px hsla(0, 0%, 100%, 0.15);
+}
+@media (max-width: 980px) {
+    .forget-pass .box-form {
+        flex-flow: wrap;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+    }
+}
+.forget-pass .box-form div {
+    height: auto;
+}
+.forget-pass .box-form .left {
+    color: #FFFFFF;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/GettyImages-182859572.jpg);
+    overflow: hidden;
+}
+.forget-pass .box-form .left .overlay {
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background: rgba(127, 189, 66, 0.82);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.forget-pass .box-form .left .overlay h1 {
+    font-size: 96px;
+    line-height: 1;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.forget-pass .box-form .left .overlay span p {
+    margin-top: 30px;
+    font-weight: 900;
+}
+
+.forget-pass .box-form .right {
+    padding: 40px;
+    overflow: hidden;
+}
+
+.forget-pass .box-form .right h5 {
+    font-size: 25px;
+}
+.forget-pass .box-form .right p {
+    font-size: 14px;
+    color: #B0B3B9;
+}
+.forget-pass .box-form .right .inputs {
+    overflow: hidden;
+}
+.forget-pass .box-form .right input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 25px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #B0B3B9;
+}
+.forget-pass .box-form .right .remember-me--forget-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.forget-pass .box-form .right .remember-me--forget-password input {
+    margin: 0;
+    margin-right: 7px;
+    width: auto;
+}
+.forget-pass .box-form .right button {
+    float: right;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 35px;
+    border-radius: 50px;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 4px 20px 0px #49c628a6;
+    background-image: linear-gradient(135deg, #70F570 10%, #49C628 100%);
+}
+
+.forget-pass label {
+    display: block;
+    position: relative;
+    margin-left: 30px;
+}
+
+.forget-pass label::before {
+    content: ' \f00c';
+    position: absolute;
+    font-family: FontAwesome;
+    background: transparent;
+    border: 3px solid #70F570;
+    border-radius: 4px;
+    color: transparent;
+    left: -30px;
+    transition: all 0.2s linear;
+}
+
+.forget-pass label:hover::before {
+    font-family: FontAwesome;
+    content: ' \f00c';
+    color: #fff;
+    cursor: pointer;
+    background: #70F570;
+}
+
+.forget-pass label:hover::before .text-checkbox {
+    background: #70F570;
+}
+
+.forget-pass label span.text-checkbox {
+    display: inline-block;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.forget-pass label input[type="checkbox"] {
+    display: none;
+}
+.d-flex-self-center{
+    display: flex;
+    align-self: center;
+}
+@media (max-width: 980px) {
+    .forget-pass .box-form .right {
+        width: 100%;
+    }
+    .forget-pass .box-form .left .overlay h1{
+        font-size: 50px;
+    }
+}
