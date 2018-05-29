@@ -93,7 +93,7 @@
                                     </label>
 
                                     <span class="lost_password">
-										<a href="#">Lost Your Password?</a>
+										<a href="forget-pass.php">Lost Your Password?</a>
 									</span>
                                 </p>
                                 <ul class="social-icons color rounded pull-right">
