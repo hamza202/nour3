@@ -182,3 +182,20 @@ input.error, select.error { border: 1px dotted red !important; }
         font-size: 50px;
     }
 }
+.main-search-container h4{
+    font-size: 24px;
+    font-weight: 500;
+    color: #292929;
+    line-height: 32px;
+}
+.switch__label{
+    color: #fff;
+    font-weight: 500;
+}
+img.footer-logo {
+    max-height: 100px;
+    width: auto;
+}
+.switch:before{
+    background: transparent;
+}

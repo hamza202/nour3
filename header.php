@@ -9,7 +9,7 @@
 
                 <!-- Logo -->
                 <div id="logo">
-                    <a href="index.html"><img src="images/logo-2.png" alt=""></a>
+                    <a href="index.php"><img src="images/logo-2.png" alt=""></a>
                 </div>
 
                 <!-- Mobile Navigation -->
@@ -26,7 +26,7 @@
                 <nav id="navigation" class="style-1">
                     <ul id="responsive">
 
-                        <li><a href="index.html">Home 1</a></li>
+                        <li><a href="index.php">Home</a></li>
                         <li><a href="#">link 1</a></li>
                         <li><a href="#">link 2</a></li>
                         <li><a href="#">link 3</a></li>

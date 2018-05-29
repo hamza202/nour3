@@ -4,7 +4,7 @@
 
     <!-- Basic Page Needs
     ================================================== -->
-    <title>Dgo</title>
+    <title>DGO Tour</title>
     <?php
     include ('style.php')
     ?>
