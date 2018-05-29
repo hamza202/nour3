@@ -6,7 +6,7 @@
     ================================================== -->
     <title>DGO Tour</title>
     <?php
-    include ('style.php')
+    include('style.php')
     ?>
 
 
@@ -20,7 +20,7 @@
     <!-- Header Container
     ================================================== -->
     <?php
-    include ('header.php')
+    include('header.php')
     ?>
     <div class="clearfix"></div>
     <!-- Header Container / End -->
@@ -44,10 +44,14 @@
 
                             <div class="switch__indicator"></div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
 
                         <div class="main-search-input">
-
-
 
 
                             <div class="main-search-input-item location">
@@ -66,17 +70,192 @@
                                 <input class="datepik" type="text" placeholder="date of arrival" value=""/>
                             </div>
 
-                            <button class="button" onclick="window.location.href='listings-half-screen-map-list.html'">
+                            <button class="button">
                                 Search
+                            </button>
+                            <button class="button">
+                                Nearest Driver
                             </button>
 
                         </div>
+
                     </div>
                 </div>
             </div>
 
         </div>
     </div>
+    <section class="advantages ">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h2 class="headline centered margin-top-80">
+                        Our advantages
+                        <span class="margin-top-25">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci at facere iste laudantium
+                        repellat! Accusamus accusantium adipisci
+                    </span>
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row icons-container">
+                <!-- Stage -->
+                <div class="col-md-4">
+                    <div class="icon-box-2 with-line">
+                        <i class="">
+                            <img src="images/hand-shake.svg" alt="">
+                        </i>
+                        <h3>Confidence</h3>
+                        <p>Proin dapibus nisl ornare diam varius tempus. Aenean a quam luctus, finibus tellus ut,
+                            convallis
+                            eros sollicitudin turpis.</p>
+                    </div>
+                </div>
+
+                <!-- Stage -->
+                <div class="col-md-4">
+                    <div class="icon-box-2 with-line">
+                        <i class="">
+                            <img src="images/presentation.svg" alt="">
+                        </i>
+                        <h3>Diversity in presentations</h3>
+                        <p>Maecenas pulvinar, risus in facilisis dignissim, quam nisi hendrerit nulla, id vestibulum
+                            metus
+                            nullam viverra porta purus.</p>
+                    </div>
+                </div>
+
+                <!-- Stage -->
+                <div class="col-md-4">
+                    <div class="icon-box-2">
+                        <i class="">
+                            <img src="images/discount.svg" alt="">
+                        </i>
+                        <h3>Compete in prices</h3>
+                        <p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus sollicitudin
+                            feugiat pharetra consectetur.</p>
+                    </div>
+                </div>
+                <!-- Stage -->
+                <div class="col-md-4 ">
+                    <div class="icon-box-2 with-line">
+                        <i class="">
+                            <img src="images/room-key.svg" alt="">
+                        </i>
+                        <h3>Easy access</h3>
+                        <p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus sollicitudin
+                            feugiat pharetra consectetur.</p>
+                    </div>
+                </div>
+                <!-- Stage -->
+                <div class="col-md-4">
+                    <div class="icon-box-2 with-line">
+                        <i class="">
+                            <img src="images/ticket.svg" alt="">
+                        </i>
+                        <h3>Booking by days and hours</h3>
+                        <p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus sollicitudin
+                            feugiat pharetra consectetur.</p>
+                    </div>
+                </div>
+                <!-- Stage -->
+                <div class="col-md-4">
+                    <div class="icon-box-2">
+                        <i class="">
+                            <img src="images/security.svg" alt="">
+                        </i>
+                        <h3>Security "tracking"</h3>
+                        <p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus sollicitudin
+                            feugiat pharetra consectetur.</p>
+                    </div>
+                </div>
+                <!-- Stage -->
+                <div class="col-md-4">
+                    <div class="icon-box-2 with-line">
+                        <i >
+                            <img src="images/destination.svg" alt="">
+                        </i>
+                        <h3>Know the daily program (the itinerary)</h3>
+                        <p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus sollicitudin
+                            feugiat pharetra consectetur.</p>
+                    </div>
+                </div>
+                <!-- Stage -->
+                <div class="col-md-4">
+                    <div class="icon-box-2 ">
+                        <i>
+                            <img src="images/questions.svg" alt="">
+                        </i>
+                        <h3>Images, information and evaluation</h3>
+                        <p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus sollicitudin
+                            feugiat pharetra consectetur.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="fullwidth margin-top-70 padding-top-75 padding-bottom-70" data-background-color="#f9f9f9">
+        <!-- Info Section -->
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3 class="headline centered">
+                        What Our clients Say
+                        <span class="margin-top-25">We collect reviews from our users so you can get an honest opinion of what an experience with our website are really like!</span>
+                    </h3>
+                </div>
+            </div>
+
+        </div>
+        <!-- Info Section / End -->
+
+        <!-- Categories Carousel -->
+        <div class="fullwidth-carousel-container margin-top-20">
+            <div class="testimonial-carousel testimonials">
+
+                <!-- Item -->
+                <div class="fw-carousel-review">
+                    <div class="testimonial-box">
+                        <div class="testimonial">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation is on the runway heading towards a streamlined cloud solution user generated content.</div>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/happy-client-01.jpg" alt="">
+                        <h4>Jennie Smith <span>Coffee Shop Owner</span></h4>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="fw-carousel-review">
+                    <div class="testimonial-box">
+                        <div class="testimonial">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop.</div>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/happy-client-02.jpg" alt="">
+                        <h4>Tom Baker <span>Clothing Store Owner</span></h4>
+                    </div>
+                </div>
+
+                <!-- Item -->
+                <div class="fw-carousel-review">
+                    <div class="testimonial-box">
+                        <div class="testimonial">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view.</div>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="images/happy-client-03.jpg" alt="">
+                        <h4>Jack Paden <span>Restaurant Owner</span></h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Categories Carousel / End -->
+
+    </section>
 
     <!-- Parallax -->
     <div class="parallax"
@@ -167,9 +346,9 @@
     }
 </script>
 <script>
-    $( function() {
-        $( ".datepik" ).datepicker();
-    } );
+    $(function () {
+        $(".datepik").datepicker();
+    });
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g&amp;libraries=places&amp;callback=initAutocomplete"></script>
 
