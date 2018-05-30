@@ -272,8 +272,11 @@ input.parsley-error.error{
     display: inline-block;
     text-align: left;
     background: #fff;
-    padding: 5px 0 20px 0;
+    margin: 1px 0 19px 0;
     width: 100%;
+    height: 49px;
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .06);
     position: relative;
     border-radius: 3px;
 }
@@ -295,24 +298,76 @@ input.parsley-error.error{
     background: #eee;
     padding: 8px 16px;
     border-radius: 2px;
+    height: 100%;
+    line-height: 34px;
     margin-right: 8px;
 }
 
 .file-input:hover > .button {
-    background: dodgerblue;
+    background: #2c3f4c;
     color: white;
 }
 
 .file-input > .label {
-    color: #333;
     white-space: nowrap;
-    opacity: .3;
-}
+    font-size: 15px;
+    color: gray;
+    font-weight: 500;
 
+}
+.file-input  .parsley-errors-list{
+    position: absolute;
+    bottom: -30px;
+
+}
 .file-input.-chosen > .label {
     opacity: 1;
 }
-
+.file-input .label{
+    max-width: 231px;
+    overflow: hidden;
+    display: inline-block;
+    top: 7px;
+    position: relative;
+}
+.gsi-style-7{
+    margin-top: 0;
+}
+.gsi-number-circle li.visited>* .number, .gsi-number-circle li.current>* .number {
+    color: #fff;
+    background: #96c03d;
+    border: 0;
+    line-height: 24px;
+    display: inline-block;
+    padding-left: 6px;
+}
+.gsi-style-7 li>* .number {
+    display: inline-block;
+    padding-left: 6px;
+    padding-top: 5px;
+}
+.gsi-number-circle li a:hover .number {
+    color: #2c3f4c;
+    background: #fff;
+}
+.gsi-style-7 li>* .desc label{
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+.gsi-style-7{
+    padding: 0;
+    margin: 0;
+}
+.gsi-style-7 li{
+    margin-left: 0;
+    width: 100%;
+}
+.tsf-content{
+    overflow: visible !important;
+}
+.tsf-step-content .chosen-container-single{
+    margin-bottom: 16px;
+}
 @media (max-width: 992px) {
     .gsi-style-7 li{
         display: block;

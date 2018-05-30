@@ -23,13 +23,27 @@
     include('header.php')
     ?>
     <div class="clearfix"></div>
-    <!-- Header Container / End -->
+    <div id="titlebar" class="gradient">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
 
+                    <h2>Registration of the tourist leader</h2>
 
-    <!-- Banner
-    ================================================== -->
-    <div class="clearfix"></div>
-    <div STYLE="display: none">
+                    <!-- Breadcrumbs -->
+                    <nav id="breadcrumbs">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li>Registration of the tourist leader</li>
+                        </ul>
+                    </nav>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: none">
         <label for="stepTransition">
             Step transition <input type="checkbox" id="stepTransition" name="stepTransition" value="11" checked/>
         </label>
@@ -44,9 +58,6 @@
     </div>
     <div class="  wizard-section">
         <div class="container">
-
-            <h3>Example 1</h3>
-            <!-- BEGIN STEP FORM WIZARD -->
             <div class="tsf-wizard tsf-wizard-1 ">
                 <div class="row">
                     <!-- BEGIN NAV STEP-->
@@ -65,8 +76,7 @@
                                 <a href="#0">
                                     <span class="number">2</span>
                                     <span class="desc">
-                                    <label>Profile setup</label>
-                                    <span>Profile details</span>
+                                    <label>member details</label>
                                 </span>
                                 </a>
                             </li>
@@ -76,8 +86,7 @@
                                     3
                                 </span>
                                     <span class="desc">
-                                    <label>Billing setup</label>
-                                    <span>Credit card details</span>
+                                    <label>Required Files</label>
                                 </span>
                                 </a>
                             </li>
@@ -95,10 +104,10 @@
                             <!-- BEGIN STEP 1-->
                             <div class="tsf-step step-1 active">
                                 <fieldset>
-                                    <legend>Provide your account details</legend>
-                                    <div class="row">
-                                        <!-- BEGIN STEP CONTENT-->
-                                        <div class="tsf-step-content">
+                                    <legend>Please fill out your personal information</legend>
+                                    <!-- BEGIN STEP CONTENT-->
+                                    <div class="tsf-step-content">
+                                        <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <!--                                                    <label for="name">Name</label>-->
@@ -113,6 +122,8 @@
                                                            name="email" placeholder="Email">
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <!--                                                    <label for="Phone">Phone Number</label>-->
@@ -123,12 +134,14 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class='file-input'>
-                                                    <input required type='file'>
+                                                    <input type='file' >
                                                     <span class='button'>Choose</span>
-                                                    <span class='label' data-js-label>No file selected
+                                                    <span class='label' data-js-label>personal picture
                                                     </span>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <select class="form-control crs-country" data-region-id="one"
@@ -141,6 +154,8 @@
                                                 <select required class="form-control" id="one">
                                                 </select>
                                             </div>
+                                        </div>
+                                        <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <input type="password" name="pw" id="pw"
@@ -155,58 +170,44 @@
                                                            data-parsley-required="true" placeholder="Password again">
                                                 </div>
                                             </div>
-                                            <div class="col-lg-12">
-                                                Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                industry. Lorem Ipsum has been the industry's standard dummy text ever
-                                                since the 1500s, when an unknown printer took a galley of type and
-                                                scrambled it to make a type specimen book. It has survived not only five
-                                                centuries, but also the leap into electronic typesetting, remaining
-                                                essentially unchanged. It was popularised in the 1960s with the release
-                                                of Letraset sheets containing Lorem Ipsum passages, and more recently
-                                                with desktop publishing software like Aldus PageMaker including versions
-                                                of Lorem Ipsum.
-                                            </div>
                                         </div>
-                                        <!-- END STEP CONTENT-->
                                     </div>
-
+                                    <!-- END STEP CONTENT-->
                                 </fieldset>
                             </div>
                             <!-- END STEP 1-->
                             <!-- BEGIN STEP 2-->
                             <div class="tsf-step step-2">
                                 <fieldset>
-                                    <legend>Provide your profile details</legend>
+                                    <legend>Business Member Details</legend>
                                     <!-- BEGIN STEP CONTENT-->
                                     <div class="tsf-step-content">
-                                        <div class="form-group">
-                                            <label for="fullname">Fullname</label>
-                                            <input type="text" class="form-control" id="fullname" name="fullname"
-                                                   placeholder="Enter fullname" required>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <select data-placeholder="All Categories" required class="chosen-select" >
+                                                    <option value="">Type of Membership</option>
+                                                    <option value="1">1- Independent tourist driver</option>
+                                                    <option value="2">2- Tourism company</option>
+                                                    <option value="3">3- A tour guide</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <select data-placeholder="All Categories" required class="chosen-select" >
+                                                    <option value="">type of the vehicle</option>
+                                                    <option value="1">1- VIP Care</option>
+                                                    <option value="2">2- Family bus</option>
+                                                    <option value="3">3- Sedan Car</option>
+                                                </select>
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label for="phone_number">Phone Number</label>
-                                            <input type="text" class="form-control" id="phone_number"
-                                                   name="phone_number" placeholder="Phone Number" required>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="address">Address</label>
-                                            <input type="text" class="form-control" id="address" name="address"
-                                                   placeholder="Street address">
-                                        </div>
-                                        <label>Gender </label>
-                                        <div class="radio">
-                                            <label>
-                                                <input type="radio" name="gender" value="option1" checked=""
-                                                       required="">
-                                                Male
-                                            </label>
-                                        </div>
-                                        <div class="radio">
-                                            <label>
-                                                <input type="radio" name="gender" value="option2">
-                                                Female
-                                            </label>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <!--                                                    <label for="name">Name</label>-->
+                                                    <input type="text" class="form-control " required id="Manufacture"
+                                                           name="name" placeholder="Manufacture Date of car">
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <!-- END STEP CONTENT-->
@@ -216,29 +217,45 @@
                             <!-- BEGIN STEP 3-->
                             <div class=" tsf-step step-3 ">
                                 <fieldset>
-                                    <legend>Provide your billing and credit card details</legend>
+                                    <legend>The Required Files</legend>
                                     <!-- BEGIN STEP CONTENT-->
                                     <div class="tsf-step-content">
-                                        <div class="form-group">
-                                            <label for="cardHolderName">Card Holder Name </label>
-                                            <input type="text" class="form-control" name="cardHolderName"
-                                                   placeholder="Enter Card Holder Name" required>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class='file-input'>
+                                                    <input type='file' required>
+                                                    <span class='button'>Choose</span>
+                                                    <span class='label' data-js-label>Driving License
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class='file-input'>
+                                                    <input type='file' required>
+                                                    <span class='button'>Choose</span>
+                                                    <span class='label' data-js-label>Tourism Business License
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label for="Card_Number">Card Number</label>
-                                            <input type="text" class="form-control" name="Card_Number"
-                                                   placeholder="Card Number">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class='file-input'>
+                                                    <input type='file' required>
+                                                    <span class='button'>Choose</span>
+                                                    <span class='label' data-js-label>Car Insurance
+                                                    </span>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class='file-input'>
+                                                    <input type='file' required>
+                                                    <span class='button'>Choose</span>
+                                                    <span class='label' data-js-label>Record The Car
+                                                    </span>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <label for="CVC">CVC </label>
-                                            <input type="text" class="form-control" name="CVC" placeholder="CVC">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="expiration">Expiration(MM/YYYY)</label>
-                                            <input type="text" class="form-control" name="expiration"
-                                                   placeholder="MM/YYYY">
-                                        </div>
-
                                     </div>
                                     <!-- END STEP CONTENT-->
 
@@ -400,7 +417,7 @@
         customInput(inputs[i])
     }
 
-    function customInput (el) {
+    function customInput(el) {
         const fileInput = el.querySelector('[type="file"]')
         const label = el.querySelector('[data-js-label]')
 
