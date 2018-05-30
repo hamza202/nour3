@@ -1816,7 +1816,7 @@ em.mm-counter + a.mm-fullsubopen + a, em.mm-counter + a.mm-fullsubopen + span {
 }
 
 .main-search-input input, .main-search-input input:focus {
-    font-size: 16px;
+    font-size: 17px;
     border: 0;
     background: #fff;
     margin: 0;
@@ -1829,7 +1829,7 @@ em.mm-counter + a.mm-fullsubopen + a, em.mm-counter + a.mm-fullsubopen + span {
 .main-search-input button.button {
     font-size: 18px;
     font-weight: 600;
-    padding: 0 40px;
+    padding: 0 20px;
     margin-right: 1px;
     height: 50px;
     outline: 0
