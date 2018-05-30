@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da337ead-9f69-4d22-ba94-0c3c138caa8f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Registration-Leader.php" beforeDir="false" afterPath="$PROJECT_DIR$/Registration-Leader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/costume.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/costume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Registration-Leader.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Registration-Leader.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Registration-Leader.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="222">
@@ -58,6 +56,15 @@
                 <element signature="n#select#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="276" column="56" selection-start-line="276" selection-start-column="56" selection-end-line="276" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -111,15 +118,15 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find />
+      <find>.switch input#one:checked ~ .switch__indicator</find>
       <find>window.location.href='listings-half-screen-map-list.html'</find>
       <find>main-search-input</find>
-      <find />
+      <find>.forget-pass .main-search-inner</find>
       <find>IMG</find>
-      <find />
-      <find />
+      <find>.main-search-input button.button</find>
+      <find>Example 4</find>
       <find>result</find>
-      <find />
+      <find>Nearest Driver</find>
       <find>demo-settings</find>
       <find>form</find>
       <find>email</find>
@@ -128,19 +135,19 @@
       <find>password1</find>
       <find>tsf-nav-step</find>
       <find>gsi-style-7</find>
-      <find>file</find>
       <find>boot</find>
       <find>#password1</find>
       <find>.file-input</find>
-      <find />
-      <find />
-      <find />
+      <find>.file-input &gt; .button</find>
+      <find>.file-input:hover &gt; .button</find>
+      <find>Profile setup</find>
       <find>step-2</find>
       <find>tsf-container</find>
-      <find />
-      <find />
+      <find>.gsi-style-7 li&gt;* .desc label</find>
+      <find>.file-input &gt; .label</find>
       <find>fil</find>
       <find>file-input</find>
+      <find>file</find>
     </findStrings>
     <replaceStrings>
       <replace>7fbe44</replace>
@@ -164,7 +171,6 @@
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/css/colors/main.css" />
         <option value="$USER_HOME$/Desktop/add_customer.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="F:/themforest/wizard/stepform.cidcode.net/timon-7-5.html" />
         <option value="F:/themforest/wizard-validate/stepform.cidcode.net/timon-13.html" />
@@ -172,6 +178,7 @@
         <option value="$PROJECT_DIR$/style.php" />
         <option value="$PROJECT_DIR$/css/costume.css" />
         <option value="$PROJECT_DIR$/Registration-Leader.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -184,7 +191,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -264,12 +271,12 @@
       <workItem from="1527541424809" duration="17153000" />
       <workItem from="1527585129420" duration="4446000" />
       <workItem from="1527629470510" duration="11832000" />
-      <workItem from="1527697342543" duration="8896000" />
+      <workItem from="1527697342543" duration="9068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49483000" />
+    <option name="totallyTimeSpent" value="49655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -531,13 +538,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="75" column="60" selection-start-line="75" selection-start-column="50" selection-end-line="75" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/themforest/wizard-validate/stepform.cidcode.net/assets/js/demo.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -639,6 +639,13 @@
             <element signature="n#select#0;n#div#0;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#0;n#fieldset#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="276" column="56" selection-start-line="276" selection-start-column="56" selection-end-line="276" selection-end-column="56" />
         </state>
       </provider>
     </entry>

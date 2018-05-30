@@ -274,7 +274,7 @@
                         <h2>Streamline Your Business</h2>
                         <p>We’re full-service, local agents who know how to find people and home each together. We use
                             online tools with an unmatched search capability to make you smarter and faster.</p>
-                        <a href="listings-list-with-sidebar.html" class="button margin-top-25">Register Now</a>
+                        <a href="Registration-Leader.php" class="button margin-top-25">Register Now</a>
                     </div>
                 </div>
 
