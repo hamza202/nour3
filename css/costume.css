@@ -265,9 +265,9 @@ input.parsley-error.error{
 .tsf-step-content select{
     padding: 10px 15px;
 }
-
-
-
+.tsf-controls{
+    margin-bottom: 60px;
+}
 .file-input {
     display: inline-block;
     text-align: left;
@@ -367,6 +367,20 @@ input.parsley-error.error{
 }
 .tsf-step-content .chosen-container-single{
     margin-bottom: 16px;
+}
+.right-side{
+    width: auto;
+}
+.header-widget .sign-in.profile-drop-down{
+    top: 1px;
+}
+#navigation.style-1 ul ul li{
+    text-align: left;
+}
+@media only screen and (max-width: 1024px) {
+    #header-container.header-style-2 .left-side, #header-container.header-style-2 .right-side, .right-side, .left-side {
+        width: 100% !important;
+    }
 }
 @media (max-width: 992px) {
     .gsi-style-7 li{

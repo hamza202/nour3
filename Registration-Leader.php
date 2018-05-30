@@ -268,17 +268,17 @@
                         <!-- BEGIN CONTROLS-->
                         <div class="tsf-controls ">
                             <!-- BEGIN PREV BUTTTON-->
-                            <button type="button" data-type="prev" class="btn btn-left tsf-wizard-btn">
+                            <button type="button" data-type="prev" class="btn button btn-left tsf-wizard-btn">
                                 <i class="fa fa-chevron-left"></i> PREV
                             </button>
                             <!-- END PREV BUTTTON-->
                             <!-- BEGIN NEXT BUTTTON-->
-                            <button type="button" data-type="next" class="btn btn-right tsf-wizard-btn">
+                            <button type="button" data-type="next" class="btn button btn-right tsf-wizard-btn">
                                 NEXT <i class="fa fa-chevron-right"></i>
                             </button>
                             <!-- END NEXT BUTTTON-->
                             <!-- BEGIN FINISH BUTTTON-->
-                            <button type="submit" data-type="finish" class="btn btn-right tsf-wizard-btn">
+                            <button type="submit" data-type="finish" class="btn button btn-right tsf-wizard-btn">
                                 FINISH
                             </button>
                             <!-- END FINISH BUTTTON-->

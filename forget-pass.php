@@ -19,9 +19,78 @@
 
     <!-- Header Container
     ================================================== -->
-    <?php
-    include('header.php')
-    ?>
+    <header id="header-container">
+
+        <!-- Header -->
+        <div id="header">
+            <div class="container">
+
+                <!-- Left Side Content -->
+                <div class="left-side">
+
+                    <!-- Logo -->
+                    <div id="logo">
+                        <a href="index.php"><img src="images/logo-2.png" alt=""></a>
+                    </div>
+
+                    <!-- Mobile Navigation -->
+                    <div class="mmenu-trigger">
+                        <button class="hamburger hamburger--collapse" type="button">
+						<span class="hamburger-box">
+							<span class="hamburger-inner"></span>
+						</span>
+                        </button>
+                    </div>
+
+
+                    <!-- Main Navigation -->
+                    <nav id="navigation" class="style-1">
+                        <ul id="responsive">
+
+                            <li><a href="index.php">Home</a></li>
+                            <li><a href="#">link 1</a></li>
+                            <li><a href="#">link 2</a></li>
+                            <li><a href="#">link 3</a></li>
+                            <li><a href="#">link 4</a></li>
+                            <li><a href="#">Language</a>
+                                <ul>
+                                    <li><a href="#">Einglish</a></li>
+                                    <li><a href="#">العربية</a></li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </nav>
+                    <div class="clearfix"></div>
+                    <!-- Main Navigation / End -->
+
+                </div>
+                <!-- Left Side Content / End -->
+
+
+                <!-- Right Side Content / End -->
+                <div class="right-side">
+                    <div class="header-widget">
+                        <nav id="navigation" class="style-1">
+                        <ul id="responsive ">
+                        <li><a href="javascript:void(0)" class="sign-in profile-drop-down "><i class="im im-icon-Administrator"></i> Nour</a>
+                            <ul>
+                                <li><a href="#"><i class="sl sl-icon-user-following"></i>Profile</a></li>
+                                <li><a href="#"><i class="sl sl-icon-logout"></i> Log Out</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                        </nav>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+        <!-- Header / End -->
+
+    </header>
     <div class="clearfix"></div>
     <!-- Header Container / End -->
 
