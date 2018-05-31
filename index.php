@@ -85,6 +85,105 @@
 
         </div>
     </div>
+
+    <section class="fullwidth padding-top-75 padding-bottom-70" data-background-color="#f9f9f9">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3 class="headline centered">
+                        Features of subscription with us
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="featured-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/money.svg" alt="money">
+                            <div class="media-body">
+                                <p class="mt-0">We guarantee your financial rights in a way that suits you</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-6 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/car1.svg" alt="money">
+                            <div class="media-body">
+                                <p class="mt-0"> We offer you a large number of people wishing to travel and tour and we
+                                    give you all the possibilities</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-top-30">
+                    <div class="col-md-3 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/calendar.svg" alt="money">
+                            <div class="media-body">
+                                <p class="mt-0">We strive to provide reservations throughout the year
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-6 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/approve-invoice.svg" alt="money">
+                            <div class="media-body">
+                                <p class="mt-0"> We offer day and hour reservations
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-top-30">
+                    <div class="col-md-3 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/segment-path.svg" alt="money">
+                            <div class="media-body">
+                                <p class="mt-0">The accessibility of the Gulf tourist in particular
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-6 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/present.svg" alt="money">
+                            <div class="media-body">
+                                <p class="mt-0"> Obtain annual offers and gifts for quality of service
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row margin-top-30">
+                    <div class="col-md-3 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/responsive.svg" alt="money">
+                            <div class="media-body">
+                                <p class="mt-0">Through our site you can get your own page through which you want the
+                                    programs of pictures and presentations
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-6 col-xs-9">
+                        <div class="media mb-3">
+                            <img class="align-self-start mr-3 img-fluid" src="images/tourist.svg" alt="money">
+                            <div class="media-body">
+                                <p class="mt-0"> The presence of a large number of tourists seeking tours, whether
+                                    individuals or groups
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section class="advantages ">
         <div class="container">
 
@@ -174,7 +273,7 @@
                 <!-- Stage -->
                 <div class="col-md-4">
                     <div class="icon-box-2 with-line">
-                        <i >
+                        <i>
                             <img src="images/destination.svg" alt="">
                         </i>
                         <h3>Know the daily program (the itinerary)</h3>
@@ -221,7 +320,11 @@
                 <!-- Item -->
                 <div class="fw-carousel-review">
                     <div class="testimonial-box">
-                        <div class="testimonial">Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation is on the runway heading towards a streamlined cloud solution user generated content.</div>
+                        <div class="testimonial">Bring to the table win-win survival strategies to ensure proactive
+                            domination. At the end of the day, going forward, a new normal that has evolved from
+                            generation is on the runway heading towards a streamlined cloud solution user generated
+                            content.
+                        </div>
                     </div>
                     <div class="testimonial-author">
                         <img src="images/happy-client-01.jpg" alt="">
@@ -232,7 +335,10 @@
                 <!-- Item -->
                 <div class="fw-carousel-review">
                     <div class="testimonial-box">
-                        <div class="testimonial">Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop.</div>
+                        <div class="testimonial">Capitalize on low hanging fruit to identify a ballpark value added
+                            activity to beta test. Override the digital divide with additional clickthroughs from
+                            DevOps. Nanotechnology immersion along the information highway will close the loop.
+                        </div>
                     </div>
                     <div class="testimonial-author">
                         <img src="images/happy-client-02.jpg" alt="">
@@ -243,7 +349,10 @@
                 <!-- Item -->
                 <div class="fw-carousel-review">
                     <div class="testimonial-box">
-                        <div class="testimonial">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view.</div>
+                        <div class="testimonial">Leverage agile frameworks to provide a robust synopsis for high level
+                            overviews. Iterative approaches to corporate strategy foster collaborative thinking to
+                            further the overall value proposition. Organically grow the holistic world view.
+                        </div>
                     </div>
                     <div class="testimonial-author">
                         <img src="images/happy-client-03.jpg" alt="">
