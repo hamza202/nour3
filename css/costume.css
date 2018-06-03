@@ -1,5 +1,9 @@
 #logo img{
-    max-height: 63px;
+    max-height: 81px;
+    margin: -10px 0;
+}
+#header.cloned #logo img{
+    margin-top: -9px;
 }
 #logo{
     margin-top: -10px;
@@ -31,7 +35,12 @@ input.error, select.error { border: 1px dotted red !important; }
     color: #333333;
    padding: 50px 0;
 }
-
+.featured-section h3{
+    line-height: 26px;
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0;
+}
 .forget-pass .box-form {
     margin: 0 auto;
     width: 80%;
@@ -226,7 +235,7 @@ img.footer-logo {
 
     }
     .switch input#two:checked ~ .switch__indicator{
-        transform: translate3d(-73%, 155%, 0);
+        transform: translate3d(-78%, 120%, 0);
     }
 }
 
@@ -425,11 +434,52 @@ input.parsley-error.error{
 .main-search-container{
     overflow: hidden;
 }
+.main-search-input input{
+    font-size: 15px;
+    padding: 2px;
+}
+.main-search-input-item .chosen-container-single .chosen-single span{
+    line-height: 42px;
+}
+.main-search-input-item .chosen-container{
+    font-size: 15px;
+}
+.header-widget .sign-in i{
+    padding-left: 4px;
+    padding-right: 0;
+}
+a.sign-in.button{
+    color: #fff;
+    border-radius: 3px;
+}
+a.sign-in.button:hover{
+    color: #fff;
+}
+button.button{
+    line-height: 25px;
+}
+.header-widget .sign-in{
+    margin: 0 5px;
+}
+span.or{
+    display: inline-block;
+    line-height: 66px;
+    font-weight: 600;
+}
+.header-widget{
+    top: -10px;
+}
 @media (max-width: 768px) {
     .featured-section {
         padding-top: 2rem;
         background-position: left 75vw bottom 50%;
         background-size: auto 75%;
+    }
+    .main-search-input input{
+      padding: 0 20px;
+    }
+    .main-search-input-item .chosen-container-single .chosen-single span{
+        line-height: 52px;
     }
 }
 @media (max-width: 480px) {
@@ -437,6 +487,44 @@ input.parsley-error.error{
         padding-top: 2rem;
         background-position: left 75vw bottom 50%;
         background-size: auto ;
+    }
+    a.sign-in.button {
+        font-size: 13px;
+        padding: 5px 5px;
+    }
+    .header-widget .button{
+        min-width: 100px;
+    }
+    span.or{
+        line-height: 55px;
+    }
+    .main-search-inner{
+        top: 52%;
+    }
+    .main-search-input{
+        margin-top: 20px;
+    }
+    .header-widget{
+        padding: 5px 0;
+    }
+    .header-widget{
+        top: -2px;
+    }
+    .sign-in-dialog, #small-dialog{
+        max-width: 90vw;
+    }
+    .social-icons{
+        float: none !important;
+    }
+    .sign-in-dialog, #small-dialog{
+        padding: 15px;
+    }
+    .small-dialog-header{
+        width: calc(100% + 30px);
+        left: -15px;
+        padding: 30px;
+        margin-bottom: 4px;
+        top: -15px;
     }
 }
 @media (min-width: 1240px) {

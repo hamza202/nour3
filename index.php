@@ -42,7 +42,7 @@
                             <input name="switch" id="two" type="radio"/>
                             <label for="two" class="switch__label">O Group Trip</label>
 
-                            <div class="switch__indicator"></div>
+                            <div class="switch__indicator im im-icon-Car-2"></div>
                         </div>
                     </div>
                 </div>
@@ -62,6 +62,15 @@
                             </div>
                             <div class="main-search-input-item">
                                 <input type="text" placeholder="Number of Passengers" value=""/>
+                            </div>
+                            <div class="main-search-input-item">
+                                <select data-placeholder="All Categories" class="chosen-select" >
+                                    <option>Car Type</option>
+                                    <option>1- VIP Care</option>
+                                    <option>2- Family bus</option>
+                                    <option>3- Sedan Car</option>
+                                    <option>4- Family Van Car</option>
+                                </select>
                             </div>
                             <div class="main-search-input-item">
                                 <input class="datepik" type="text" placeholder="Departure Date" value=""/>
@@ -104,6 +113,7 @@
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/money.svg" alt="money">
                             <div class="media-body">
+                                <h3>Title</h3>
                                 <p class="mt-0">We guarantee your financial rights in a way that suits you</p>
                             </div>
                         </div>
@@ -112,6 +122,7 @@
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/car1.svg" alt="money">
                             <div class="media-body">
+                                <h3>Title</h3>
                                 <p class="mt-0"> We offer you a large number of people wishing to travel and tour and we
                                     give you all the possibilities</p>
                             </div>
@@ -123,6 +134,7 @@
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/calendar.svg" alt="money">
                             <div class="media-body">
+                                <h3>Title</h3>
                                 <p class="mt-0">We strive to provide reservations throughout the year
                                 </p>
                             </div>
@@ -132,6 +144,7 @@
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/approve-invoice.svg" alt="money">
                             <div class="media-body">
+                                <h3>Title</h3>
                                 <p class="mt-0"> We offer day and hour reservations
                                 </p>
                             </div>
@@ -143,6 +156,7 @@
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/segment-path.svg" alt="money">
                             <div class="media-body">
+                                <h3>Title</h3>
                                 <p class="mt-0">The accessibility of the Gulf tourist in particular
                                 </p>
                             </div>
@@ -152,6 +166,7 @@
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/present.svg" alt="money">
                             <div class="media-body">
+                                <h3>Title</h3>
                                 <p class="mt-0"> Obtain annual offers and gifts for quality of service
                                 </p>
                             </div>
@@ -163,6 +178,7 @@
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/responsive.svg" alt="money">
                             <div class="media-body">
+                                <h3>Title</h3>
                                 <p class="mt-0">Through our site you can get your own page through which you want the
                                     programs of pictures and presentations
                                 </p>
@@ -173,6 +189,7 @@
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/tourist.svg" alt="money">
                             <div class="media-body">
+                                <h3>Title</h3>
                                 <p class="mt-0"> The presence of a large number of tourists seeking tours, whether
                                     individuals or groups
                                 </p>
@@ -201,7 +218,7 @@
 
             <div class="row icons-container">
                 <!-- Stage -->
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="icon-box-2 with-line">
                         <i class="">
                             <img src="images/hand-shake.svg" alt="">
@@ -214,8 +231,8 @@
                 </div>
 
                 <!-- Stage -->
-                <div class="col-md-4">
-                    <div class="icon-box-2 with-line">
+                <div class="col-md-6">
+                    <div class="icon-box-2">
                         <i class="">
                             <img src="images/presentation.svg" alt="">
                         </i>
@@ -227,8 +244,8 @@
                 </div>
 
                 <!-- Stage -->
-                <div class="col-md-4">
-                    <div class="icon-box-2">
+                <div class="col-md-6">
+                    <div class="icon-box-2 with-line">
                         <i class="">
                             <img src="images/discount.svg" alt="">
                         </i>
@@ -238,8 +255,8 @@
                     </div>
                 </div>
                 <!-- Stage -->
-                <div class="col-md-4 ">
-                    <div class="icon-box-2 with-line">
+                <div class="col-md-6 ">
+                    <div class="icon-box-2 ">
                         <i class="">
                             <img src="images/room-key.svg" alt="">
                         </i>
@@ -249,7 +266,7 @@
                     </div>
                 </div>
                 <!-- Stage -->
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="icon-box-2 with-line">
                         <i class="">
                             <img src="images/ticket.svg" alt="">
@@ -260,7 +277,7 @@
                     </div>
                 </div>
                 <!-- Stage -->
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="icon-box-2">
                         <i class="">
                             <img src="images/security.svg" alt="">
@@ -271,7 +288,7 @@
                     </div>
                 </div>
                 <!-- Stage -->
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="icon-box-2 with-line">
                         <i>
                             <img src="images/destination.svg" alt="">
@@ -282,7 +299,7 @@
                     </div>
                 </div>
                 <!-- Stage -->
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="icon-box-2 ">
                         <i>
                             <img src="images/questions.svg" alt="">
@@ -368,7 +385,7 @@
 
     <!-- Parallax -->
     <div class="parallax"
-         data-background="images/46450095_l.jpg"
+         data-background="images/gulf.jpg"
          data-color="#36383e"
          data-color-opacity="0.6"
          data-img-width="800"
