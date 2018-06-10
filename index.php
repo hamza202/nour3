@@ -54,16 +54,16 @@
                         <div class="main-search-input">
 
 
-                            <div class="main-search-input-item location">
+                            <div class="main-search-input-item location" style="flex-grow: 0.6">
                                 <div id="autocomplete-container">
                                     <input id="autocomplete-input" type="text" placeholder="Destination">
                                 </div>
                                 <a href="#"><i class="fa fa-map-marker"></i></a>
                             </div>
-                            <div class="main-search-input-item">
+                            <div class="main-search-input-item" style="flex-grow: 0.7">
                                 <input type="text" placeholder="Number of Passengers" value=""/>
                             </div>
-                            <div class="main-search-input-item">
+                            <div class="main-search-input-item" style="flex-grow: 0.6">
                                 <select data-placeholder="All Categories" class="chosen-select" >
                                     <option>Car Type</option>
                                     <option>1- VIP Care</option>
@@ -73,21 +73,31 @@
                                 </select>
                             </div>
                             <div class="main-search-input-item">
-                                <input class="datepik" type="text" placeholder="Departure Date" value=""/>
-                            </div>
-                            <div class="main-search-input-item">
-                                <input class="datepik" type="text" placeholder="date of arrival" value=""/>
+                                <input id="date1" type="text" placeholder="Departure Date-date of arrival" value=""/>
+                                <input id="date2" type="text" style="visibility:hidden; " placeholder="Departure Date-date of arrival" value=""/>
                             </div>
 
-                            <button class="button">
-                                Search
-                            </button>
-                            <button class="button Driver-btn">
-                                Nearest Driver
-                            </button>
+                            <div class="main-search-input-item">
+                                <div class="radio">
+                                    <input id="radio-1" name="radio" type="radio" checked>
+                                    <label for="radio-1" class="radio-label">Private Trip</label>
+                                </div>
+
+                                <div class="radio">
+                                    <input id="radio-2" name="radio" type="radio">
+                                    <label  for="radio-2" class="radio-label">O Group Trip</label>
+                                </div>
+                            </div>
 
                         </div>
-
+                        <div class="search-button margin-top-25">
+                        <button type="submit" class="button">
+                            Search
+                        </button>
+                        <button type="submit" class="button Driver-btn">
+                            Nearest Driver
+                        </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -430,8 +440,9 @@
 
 <!-- Scripts
 ================================================== -->
-<script data-cfasync="false" src="../../cdn-cgi/scripts/f2bf09f8/cloudflare-static/email-decode.min.js"></script>
-<script type="text/javascript" src="scripts/jquery-2.2.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
 <script type="text/javascript" src="scripts/jquery.validate.min.js"></script>
 <script type="text/javascript" src="scripts/mmenu.min.js"></script>
 <script type="text/javascript" src="scripts/chosen.min.js"></script>
@@ -440,11 +451,8 @@
 <script type="text/javascript" src="scripts/magnific-popup.min.js"></script>
 <script type="text/javascript" src="scripts/waypoints.min.js"></script>
 <script type="text/javascript" src="scripts/counterup.min.js"></script>
-<script type="text/javascript" src="scripts/jquery-ui.min.js"></script>
 <script type="text/javascript" src="scripts/tooltips.min.js"></script>
 <script type="text/javascript" src="scripts/custom.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
 <script>
 
 
@@ -472,8 +480,32 @@
     }
 </script>
 <script>
-    $(function () {
-        $(".datepik").datepicker();
+    $(document).ready(function() {
+        var date1 = $('#date1');
+        var date2 = $('#date2');
+        date1.datepicker({
+            defaultDate: "+1w",
+            changeMonth: true,
+            numberOfMonths: 1,
+            onClose: function( selectedDate ) {
+                var date = $(this).datepicker("getDate");
+
+                date2.datepicker("setDate", date);
+                date2.datepicker( "show" );
+
+            }
+        });
+        date2.datepicker({
+            defaultDate: "+1w",
+            changeMonth: true,
+            numberOfMonths: 1,
+            onClose: function( selectedDate ) {
+                var date = $(this).datepicker("getDate");
+                var formattedDate = $.datepicker.formatDate('mm/dd/yy', date);
+
+                date1.val(date1.val() + " - " + formattedDate);
+            }
+        });
     });
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAgeuuDfRlweIs7D6uo4wdIHVvJ0LonQ6g&amp;libraries=places&amp;callback=initAutocomplete"></script>

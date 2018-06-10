@@ -1795,7 +1795,7 @@ em.mm-counter + a.mm-fullsubopen + a, em.mm-counter + a.mm-fullsubopen + span {
     padding-right: 30px
 }
 
-.main-search-input .main-search-input-item:nth-last-child(2) {
+.main-search-input .main-search-input-item:nth-last-child(1) {
     border-right: 0;
     padding-left: 15px;
     padding-right: 15px
