@@ -157,7 +157,20 @@
                                                id="confirm_password1"/>
                                     </label>
                                 </p>
-
+                                <p class="form-row form-row-wide margin-bottom-0">
+                                    <label for="condition" class="condition-label margin-bottom-0">
+                                        <input type="checkbox" name="condition"
+                                               id="condition"/>
+                                        I hereby confirm i have one of the following tour guide qualifications-licence/certification/training.
+                                    </label>
+                                </p>
+                                <p class="form-row form-row-wide margin-bottom-0">
+                                    <label for="condition2" class="condition-label">
+                                        <input type="checkbox" name="condition2"
+                                               id="condition2"/>
+                                        i agree to offer 10% discount to my first two bookings.
+                                    </label>
+                                </p>
                                 <input type="submit" class="button border fw margin-top-10" name="register"
                                        value="Register"/>
 

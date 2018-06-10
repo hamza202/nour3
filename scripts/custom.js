@@ -58,7 +58,16 @@ $("#signupForm").validate({
         password1: {required: !0, minlength: 5},
         confirm_password1: {required: !0, minlength: 5, equalTo: "#password1"},
         email: {required: !0, email: !0},
-        agree: "required"
+        agree: "required",
+        condition: {
+            required: !0,
+            maxlength: 2
+        },
+        condition2: {
+            required: !0,
+            maxlength: 2
+        }
+
     },
     messages: {
         username2: {
@@ -67,6 +76,14 @@ $("#signupForm").validate({
         },
         Mobile:{
             required: "Please enter a Valid Number",
+        },
+        condition:{
+            required: "You must agree ",
+            maxlength: "Check no more than {0} boxes"
+        },
+        condition2:{
+            required: "You must agree ",
+            maxlength: "Check no more than {0} boxes"
         },
         password: {
             required: "Please provide a password",

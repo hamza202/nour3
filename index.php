@@ -36,14 +36,14 @@
                     <div class="col-md-12">
                         <h4>Welcome,</h4>
                         <h2>Start your Journey Now </h2>
-                        <div class="switch">
-                            <input name="switch" id="one" type="radio" checked/>
-                            <label for="one" class="switch__label">Private Trip</label>
-                            <input name="switch" id="two" type="radio"/>
-                            <label for="two" class="switch__label">O Group Trip</label>
-
-                            <div class="switch__indicator im im-icon-Car-2"></div>
-                        </div>
+<!--                        <div class="switch">-->
+<!--                            <input name="switch" id="one" type="radio" checked/>-->
+<!--                            <label for="one" class="switch__label">Private Trip</label>-->
+<!--                            <input name="switch" id="two" type="radio"/>-->
+<!--                            <label for="two" class="switch__label">O Group Trip</label>-->
+<!---->
+<!--                            <div class="switch__indicator im im-icon-Car-2"></div>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
@@ -60,16 +60,28 @@
                                 </div>
                                 <a href="#"><i class="fa fa-map-marker"></i></a>
                             </div>
-                            <div class="main-search-input-item" style="flex-grow: 0.7">
-                                <input type="text" placeholder="Number of Passengers" value=""/>
+                            <div class="main-search-input-item" style="flex-grow: 0.8">
+                                <select data-placeholder="All Categories" class="chosen-select" >
+                                    <option>Number of Passengers</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                    <option>10</option>
+                                </select>
                             </div>
                             <div class="main-search-input-item" style="flex-grow: 0.6">
                                 <select data-placeholder="All Categories" class="chosen-select" >
                                     <option>Car Type</option>
-                                    <option>1- VIP Care</option>
-                                    <option>2- Family bus</option>
-                                    <option>3- Sedan Car</option>
-                                    <option>4- Family Van Car</option>
+                                    <option>VIP Care</option>
+                                    <option>Family bus</option>
+                                    <option>Sedan Car</option>
+                                    <option>Family Van Car</option>
                                 </select>
                             </div>
                             <div class="main-search-input-item">
@@ -85,7 +97,7 @@
 
                                 <div class="radio">
                                     <input id="radio-2" name="radio" type="radio">
-                                    <label  for="radio-2" class="radio-label">O Group Trip</label>
+                                    <label  for="radio-2" class="radio-label">Group Trip</label>
                                 </div>
                             </div>
 

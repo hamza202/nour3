@@ -549,6 +549,7 @@ span.or{
 .radio {
     margin: 0.5rem;
     display: inline-block;
+    line-height: 35px;
 }
 .radio input[type="radio"] {
     position: absolute;
@@ -563,7 +564,7 @@ span.or{
     width: 1.4em;
     height: 1.4em;
     position: relative;
-    top: 1px;
+    top: 6px;
     margin-right: 0.3em;
     vertical-align: top;
     cursor: pointer;
@@ -596,10 +597,81 @@ span.or{
     display: table-row;
 }
 #date2{
-    position: relative;
-    top: -40px;
+    height: 0;
 }
 .ui-datepicker-month{
     height: 30px;
     padding: 3px;
+}
+.ui-widget-header{
+    background: #7fbd42;
+    color: #fff;
+}
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year{
+    float: left;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    background: #7fbe44;
+    color: #fff;
+    border-radius: 3px;
+}
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus{
+    background: #fff;
+    color: #333;
+}
+.main-search-input-item .chosen-container .chosen-results li{
+    font-weight: 600;
+}
+.main-search-input{
+    margin-top: 20px;
+}
+.search-button{
+    text-align: center;
+}
+.main-search-input .chosen-container-single .chosen-search{
+    display: none;
+}
+.chosen-container .chosen-results{
+    max-height: 200px;
+}
+.main-search-input .chosen-container-single .chosen-single div{
+    display: block;
+    float: right;
+}
+.main-search-input .chosen-container-single .chosen-single div:after{
+    right: 10px;
+}
+.main-search-input-item .chosen-container .chosen-results li:first-child{
+    display: none;
+}
+.condition-label input{
+    width: auto;
+    margin: 0;
+}
+.condition-label{
+    line-height: 20px;
+}
+label.error, label.error{
+    position: absolute;
+    bottom: -14px;
+}
+.condition-label label.error{
+    bottom: -6px;
+    position: absolute;
+}
+@media (max-width: 992px) {
+    .main-search-inner .search-button{
+        margin-top: 0 !important;
+    }
+    .main-search-input .main-search-input-item:nth-last-child(1){
+        padding-left: 0;
+        height: 40px;
+    }
+    .main-search-input select{
+        margin: 0 0 10px;
+    }
+    .search-button{
+        text-align: left;
+    }
 }
