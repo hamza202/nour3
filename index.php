@@ -118,7 +118,7 @@
     </div>
 
 
-    <section class="advantages " data-background-color="#f9f9f9">
+    <section class="advantages" style="background-color: #f9f9f9">
         <div class="container">
 
             <div class="row">
