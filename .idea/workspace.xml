@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da337ead-9f69-4d22-ba94-0c3c138caa8f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/costume.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/costume.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="120" column="64" selection-start-line="120" selection-start-column="64" selection-end-line="120" selection-end-column="64" />
+            <state relative-caret-position="184">
+              <caret line="120" column="48" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -86,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="costume.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="costume.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/costume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="669" column="24" selection-start-line="669" selection-start-column="24" selection-end-line="669" selection-end-column="24" />
+            <state relative-caret-position="302">
+              <caret line="674" column="5" lean-forward="true" selection-start-line="674" selection-start-column="5" selection-end-line="674" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -132,32 +131,32 @@
       <find>switch__indicator</find>
       <find>.switch__indicator::before</find>
       <find>.switch__indicator</find>
-      <find>.switch input#two:checked ~ .switch__indicator</find>
-      <find>#logo img</find>
+      <find />
+      <find />
       <find>46450095_l</find>
-      <find>icon-box-2 with-line</find>
-      <find>.main-search-input input</find>
-      <find>Number of Passengers</find>
-      <find>.switch input#one:checked ~ .switch__indicator</find>
+      <find />
+      <find />
+      <find />
+      <find />
       <find>#sign-in-dialog</find>
-      <find>Be a Leader</find>
+      <find />
       <find>radio</find>
-      <find>.radio input[type=&quot;radio&quot;]:checked + .radio-label:before</find>
-      <find>button Driver-btn</find>
+      <find />
+      <find />
       <find>Destination</find>
       <find>datepicker</find>
       <find>remember-me</find>
       <find>LogingForm</find>
       <find>Mobile</find>
-      <find>O Group Trip</find>
-      <find>.radio input[type=&quot;radio&quot;] + .radio-label:before</find>
+      <find />
+      <find />
       <find>switch</find>
-      <find>Departure Date-date of arrival</find>
+      <find />
       <find>#date2</find>
-      <find>condition-labelim im-icon-Male</find>
-      <find>label.error, label.error</find>
+      <find />
       <find>username2</find>
-      <find>Features of subscription with us</find>
+      <find />
+      <find />
     </findStrings>
     <replaceStrings>
       <replace>7fbe44</replace>
@@ -189,8 +188,8 @@
         <option value="$PROJECT_DIR$/forget-pass.php" />
         <option value="$PROJECT_DIR$/scripts/custom.js" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/costume.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -203,7 +202,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-36" />
     <option name="y" value="153" />
     <option name="width" value="915" />
@@ -272,12 +271,12 @@
       <workItem from="1527724171009" duration="5299000" />
       <workItem from="1527974844208" duration="8191000" />
       <workItem from="1528589551979" duration="3179000" />
-      <workItem from="1528659665162" duration="11763000" />
+      <workItem from="1528659665162" duration="11967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80140000" />
+    <option name="totallyTimeSpent" value="80344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -581,19 +580,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/css/costume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="120" column="64" selection-start-line="120" selection-start-column="64" selection-end-line="120" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="302">
+          <caret line="674" column="5" lean-forward="true" selection-start-line="674" selection-start-column="5" selection-end-line="674" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -604,10 +594,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/costume.css">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="669" column="24" selection-start-line="669" selection-start-column="24" selection-end-line="669" selection-end-column="24" />
+        <state relative-caret-position="184">
+          <caret line="120" column="48" selection-start-line="120" selection-start-column="48" selection-end-line="120" selection-end-column="48" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
