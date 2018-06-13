@@ -146,7 +146,6 @@
                                                 <div class="form-group">
                                                     <select class="form-control crs-country" data-region-id="one"
                                                             required id="sel1">
-
                                                     </select>
                                                 </div>
                                             </div>
@@ -186,18 +185,18 @@
                                             <div class="col-md-6">
                                                 <select data-placeholder="All Categories" required class="chosen-select" >
                                                     <option value="">Type of Membership</option>
-                                                    <option value="1">1- Independent tourist driver</option>
-                                                    <option value="2">2- Tourism company</option>
-                                                    <option value="3">3- A tour guide</option>
+                                                    <option value="1">Independent tourist driver</option>
+                                                    <option value="2">Tourism company</option>
+                                                    <option value="3">A tour guide</option>
                                                 </select>
                                             </div>
                                             <div class="col-md-6">
                                                 <select data-placeholder="All Categories" required class="chosen-select" >
                                                     <option value="">type of the vehicle</option>
-                                                    <option value="1">1- VIP Care</option>
-                                                    <option value="2">2- Family bus</option>
-                                                    <option value="3">3- Sedan Car</option>
-                                                    <option value="3">4- Family Van Car</option>
+                                                    <option value="1">VIP Care</option>
+                                                    <option value="2">Family bus</option>
+                                                    <option value="3">Sedan Car</option>
+                                                    <option value="3">Family Van Car</option>
 
                                                 </select>
                                             </div>
@@ -256,6 +255,22 @@
                                                     <span class='label' data-js-label>Record The Car
                                                     </span>
                                                 </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <p class="form-row form-row-wide ">
+                                                    <label for="condition3" class="condition-label margin-bottom-0">
+                                                        <input type="checkbox" name="condition3" id="condition3" data-parsley-required-message="You must accept the terms "  data-parsley-required="true" >
+                                                        I hereby confirm i have one of the following tour guide qualifications-licence/certification/training.
+                                                    </label>
+                                                </p>
+                                                <p class="form-row form-row-wide ">
+                                                    <label for="condition4" class="condition-label">
+                                                        <input type="checkbox" name="condition4" id="condition4" data-parsley-required-message="You must accept the terms "  data-parsley-required="true" >
+                                                        i agree to offer 10% discount to my first two bookings.
+                                                    </label>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>

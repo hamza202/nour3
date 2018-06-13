@@ -664,10 +664,14 @@ label.error, label.error{
     line-height: 20px;
 }
 #signupForm label i{
-    top: 37px;
+    top: 44px;
 }
 .icon-box-2 i{
     background: #f9f9f9;
+}
+.chosen-results li:hover{
+    background:#7fbe44 ;
+    color: #fff;
 }
 @media (max-width: 992px) {
     .main-search-inner .search-button{
@@ -684,3 +688,35 @@ label.error, label.error{
         text-align: left;
     }
 }
+/*last update*/
+@media (max-width: 767px) {
+    .main-search-container h2 {
+        margin: 0;
+    }
+    .main-search-container h4{
+        margin: 0;
+    }
+    .main-search-input{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .sign-in, .user-menu {
+        flex: none;
+    }
+}
+.condition-label input{
+    height: auto;
+}
+.condition-label{
+    border: 0 !important;
+}
+.tsf-wizard-1 .form-row-wide .parsley-required{
+    margin-top: 9px;
+}
+.tsf-wizard-1  .chosen-container .chosen-results li.active-result{
+    font-weight: 600;
+}
+/*.main-search-input-item .chosen-container .chosen-drop{*/
+    /*z-index: 110;*/
+/*}*/
