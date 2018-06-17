@@ -729,3 +729,7 @@ label.error, label.error{
         font-size: 24px;
     }
 }
+.something{
+    display: inline-block;
+    width: 100%;
+}
