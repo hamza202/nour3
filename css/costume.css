@@ -225,7 +225,7 @@ img.footer-logo {
         margin-top: 32px;
     }
     .main-search-container {
-        height: 700px;
+        height: 570px;
     }
 }
 @media (max-width: 480px) {
@@ -720,3 +720,12 @@ label.error, label.error{
 /*.main-search-input-item .chosen-container .chosen-drop{*/
     /*z-index: 110;*/
 /*}*/
+
+@media (max-width: 480px) {
+    .main-search-container {
+        height: 475px;
+    }
+    .main-search-container h2{
+        font-size: 24px;
+    }
+}

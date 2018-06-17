@@ -2,7 +2,7 @@
 <script type="text/javascript" src="scripts/jquery-2.2.0.min.js"></script>
 <script type="text/javascript" src="scripts/crs.min.js"></script>
 <script src="scripts/parsley.js"></script>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="scripts/jquery-ui.js"></script>
 <script type="text/javascript" src="scripts/jquery.validate.min.js"></script>
 <script type="text/javascript" src="scripts/mmenu.min.js"></script>
 <script type="text/javascript" src="scripts/chosen.min.js"></script>
