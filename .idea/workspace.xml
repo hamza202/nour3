@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da337ead-9f69-4d22-ba94-0c3c138caa8f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Registration-Leader.php" beforeDir="false" afterPath="$PROJECT_DIR$/Registration-Leader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/costume.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/costume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/chosen.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/chosen.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forget-pass.php" beforeDir="false" afterPath="$PROJECT_DIR$/forget-pass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="forget-pass.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="forget-pass.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/forget-pass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="547">
-              <caret line="77" column="60" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
+            <state relative-caret-position="448">
+              <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
             </state>
           </provider>
         </entry>
@@ -35,20 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="15705" column="1" lean-forward="true" selection-start-line="15705" selection-start-column="1" selection-end-line="15705" selection-end-column="1" />
+            <state relative-caret-position="266985">
+              <caret line="15705" column="1" selection-start-line="15705" selection-start-column="1" selection-end-line="15705" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -56,8 +47,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3437">
-              <caret line="126" column="38" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="38" />
+            <state relative-caret-position="363">
+              <caret line="450" selection-start-line="450" selection-end-line="452" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -65,17 +56,35 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
+            <state relative-caret-position="14263">
               <caret line="839" selection-start-line="839" selection-end-line="839" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Registration-Leader.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Registration-Leader.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Registration-Leader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="272" column="52" lean-forward="true" selection-start-line="272" selection-start-column="52" selection-end-line="272" selection-end-column="52" />
+            <state relative-caret-position="380">
+              <caret line="329" selection-start-line="329" selection-end-line="331" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="javascript.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/javascript.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-381">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -83,7 +92,7 @@
       <file leaf-file-name="costume.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/costume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
+            <state relative-caret-position="12223">
               <caret line="719" selection-start-line="719" selection-start-column="2" selection-end-line="721" selection-end-column="3" />
             </state>
           </provider>
@@ -92,8 +101,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1595">
-              <caret line="55" column="59" lean-forward="true" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+            <state relative-caret-position="935">
+              <caret line="55" column="59" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -104,6 +113,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -166,13 +176,15 @@
         <option value="$PROJECT_DIR$/css/colors/main.css" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/style.php" />
-        <option value="$PROJECT_DIR$/forget-pass.php" />
         <option value="$PROJECT_DIR$/header.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/costume.css" />
         <option value="$PROJECT_DIR$/scripts/custom.js" />
         <option value="$PROJECT_DIR$/scripts/chosen.min.js" />
+        <option value="$PROJECT_DIR$/javascript.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/scripts/script.js" />
         <option value="$PROJECT_DIR$/Registration-Leader.php" />
+        <option value="$PROJECT_DIR$/forget-pass.php" />
       </list>
     </option>
   </component>
@@ -196,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,16 +216,20 @@
               <item name="dgo" type="b2602c69:ProjectViewProjectNode" />
               <item name="dgo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dgo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dgo" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dgo-rtl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -257,17 +274,18 @@
       <workItem from="1528659665162" duration="12407000" />
       <workItem from="1528762050769" duration="1309000" />
       <workItem from="1528838745846" duration="8187000" />
+      <workItem from="1529273197144" duration="707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90280000" />
+    <option name="totallyTimeSpent" value="90987000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16398244" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10761347" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -295,20 +313,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/style.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/costume.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4675">
-          <caret line="275" column="16" lean-forward="true" selection-start-line="275" selection-start-column="16" selection-end-line="275" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap-grid.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -461,11 +465,7 @@
     <entry file="file://$PROJECT_DIR$/index-2.html" />
     <entry file="file://$PROJECT_DIR$/scripts/jquery-ui.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-27" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/validate.min.js" />
@@ -521,15 +521,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="15705" column="1" lean-forward="true" selection-start-line="15705" selection-start-column="1" selection-end-line="15705" selection-end-column="1" />
+        <state relative-caret-position="266985">
+          <caret line="15705" column="1" selection-start-line="15705" selection-start-column="1" selection-end-line="15705" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1595">
-          <caret line="55" column="59" lean-forward="true" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
+        <state relative-caret-position="935">
+          <caret line="55" column="59" selection-start-line="55" selection-start-column="59" selection-end-line="55" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -540,16 +540,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/forget-pass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="77" column="60" selection-start-line="77" selection-start-column="60" selection-end-line="77" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/costume.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
+        <state relative-caret-position="12223">
           <caret line="719" selection-start-line="719" selection-start-column="2" selection-end-line="721" selection-end-column="3" />
         </state>
       </provider>
@@ -566,22 +559,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
+        <state relative-caret-position="14263">
           <caret line="839" selection-start-line="839" selection-end-line="839" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3437">
-          <caret line="126" column="38" selection-start-line="126" selection-start-column="28" selection-end-line="126" selection-end-column="38" />
+        <state relative-caret-position="363">
+          <caret line="450" selection-start-line="450" selection-end-line="452" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-381">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Registration-Leader.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="272" column="52" lean-forward="true" selection-start-line="272" selection-start-column="52" selection-end-line="272" selection-end-column="52" />
+        <state relative-caret-position="380">
+          <caret line="329" selection-start-line="329" selection-end-line="331" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/forget-pass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
         </state>
       </provider>
     </entry>
