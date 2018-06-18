@@ -837,3 +837,26 @@ $("#LogingForm").validate({
         Email1: "Please enter a valid email address"
     }
 });
+//Change file img
+$(document).ready(function() {
+
+
+    var readURL = function(input=['file']) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.profile-pic').attr('src', e.target.result);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    };
+
+
+    $(".file-upload").on('change', function(){
+        readURL(this);
+    });
+
+
+});

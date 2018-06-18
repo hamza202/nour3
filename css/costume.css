@@ -754,3 +754,14 @@ label.error, label.error{
 .my-profile textarea{
     height: 130px;
 }
+.dashboard-list-box ul li{
+    padding: 0;
+    background: transparent;
+}
+.dashboard-list-box ul li:hover{
+    background: transparent;
+}
+.parsley-minlength{
+    color: red !important;
+    font-style: italic !important;
+}
