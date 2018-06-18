@@ -743,3 +743,14 @@ label.error, label.error{
         margin-top: 4px;
     }
 }
+/*Last update*/
+.dashboard-content{
+    margin-left: 0;
+}
+#dashboard{
+    padding-top: 0 !important;
+    padding-bottom: 80px;
+}
+.my-profile textarea{
+    height: 130px;
+}
