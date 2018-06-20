@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da337ead-9f69-4d22-ba94-0c3c138caa8f" name="Default" comment="" />
+    <list default="true" id="da337ead-9f69-4d22-ba94-0c3c138caa8f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Privacy.php" beforeDir="false" afterPath="$PROJECT_DIR$/Privacy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/costume.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/costume.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,17 +17,26 @@
       <file leaf-file-name="costume.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/costume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="778" selection-start-line="778" selection-end-line="783" selection-end-column="1" />
+            <state relative-caret-position="516">
+              <caret line="786" column="20" selection-start-line="786" selection-start-column="20" selection-end-line="786" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Privacy.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Privacy.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Privacy.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="61" column="244" selection-start-line="61" selection-start-column="244" selection-end-line="61" selection-end-column="244" />
+            <state relative-caret-position="404">
+              <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="conditions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conditions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="547">
+              <caret line="79" column="65" selection-start-line="79" selection-start-column="65" selection-end-line="79" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -73,15 +85,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="312" column="36" selection-start-line="312" selection-start-column="20" selection-end-line="312" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -180,8 +183,9 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="F:/themforest/listeo-googlemap/www.vasterad.com/themes/listeo_updated/pages-elements.html" />
         <option value="$PROJECT_DIR$/faq.php" />
-        <option value="$PROJECT_DIR$/css/costume.css" />
         <option value="$PROJECT_DIR$/Privacy.php" />
+        <option value="$PROJECT_DIR$/css/costume.css" />
+        <option value="$PROJECT_DIR$/conditions.php" />
       </list>
     </option>
   </component>
@@ -270,12 +274,12 @@
       <workItem from="1529358293040" duration="3698000" />
       <workItem from="1529365154735" duration="12000" />
       <workItem from="1529402725820" duration="85000" />
-      <workItem from="1529524656147" duration="3968000" />
+      <workItem from="1529524656147" duration="4886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104348000" />
+    <option name="totallyTimeSpent" value="105266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -309,13 +313,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="6" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/forget-pass.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -582,13 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://F:/themforest/listeo-googlemap/www.vasterad.com/themes/listeo_updated/pages-elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="365" column="44" lean-forward="true" selection-start-line="365" selection-start-column="44" selection-end-line="365" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faq.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="37">
@@ -596,17 +586,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/costume.css">
+    <entry file="file://$PROJECT_DIR$/Privacy.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="778" selection-start-line="778" selection-end-line="783" selection-end-column="1" />
+        <state relative-caret-position="404">
+          <caret line="36" column="40" lean-forward="true" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Privacy.php">
+    <entry file="file://F:/themforest/listeo-googlemap/www.vasterad.com/themes/listeo_updated/pages-elements.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="61" column="244" selection-start-line="61" selection-start-column="244" selection-end-line="61" selection-end-column="244" />
+        <state relative-caret-position="218">
+          <caret line="365" column="44" lean-forward="true" selection-start-line="365" selection-start-column="44" selection-end-line="365" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/costume.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="786" column="20" selection-start-line="786" selection-start-column="20" selection-end-line="786" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conditions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="79" column="65" selection-start-line="79" selection-start-column="65" selection-end-line="79" selection-end-column="65" />
         </state>
       </provider>
     </entry>
