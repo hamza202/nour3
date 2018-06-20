@@ -332,8 +332,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row margin-top-30">
+
                     <div class="col-md-3 col-xs-9">
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/calendar.svg" alt="money">
@@ -354,8 +353,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row margin-top-30">
+
                     <div class="col-md-3 col-xs-9">
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/segment-path.svg" alt="money">
@@ -376,8 +374,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row margin-top-30">
+
                     <div class="col-md-3 col-xs-9">
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/responsive.svg" alt="money">

@@ -765,3 +765,6 @@ label.error, label.error{
     color: red !important;
     font-style: italic !important;
 }
+.featured-section .row .col-md-3{
+    min-height: 200px;
+}
