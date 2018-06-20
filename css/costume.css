@@ -743,7 +743,9 @@ label.error, label.error{
         margin-top: 4px;
     }
 }
-/*Last update*/
+/*///////////////////////
+Last update
+////////////////////////*/
 .dashboard-content{
     margin-left: 0;
 }
@@ -767,4 +769,10 @@ label.error, label.error{
 }
 .featured-section .row .col-md-3{
     min-height: 200px;
+}
+.faq h4.headline {
+    color: #7fbd42;
+    font-weight: 600;
+    border-bottom: 2px dashed #7fbd42;
+    display: inline-block;
 }
