@@ -776,3 +776,9 @@ Last update
     border-bottom: 2px dashed #7fbd42;
     display: inline-block;
 }
+.left-side{
+    width: 77%;
+}
+#navigation.style-1 ul a{
+    padding: 5px 10px;
+}
