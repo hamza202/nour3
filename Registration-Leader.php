@@ -134,7 +134,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class='file-input'>
-                                                    <input type='file' >
+                                                    <input type='file'>
                                                     <span class='button'>Choose</span>
                                                     <span class='label' data-js-label>personal picture
                                                     </span>
@@ -144,13 +144,16 @@
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <div class="form-group">
-                                                    <select class="form-control crs-country" data-region-id="one"
-                                                            required id="sel1">
-                                                    </select>
+                                                    <div class="select-search">
+                                                        <input class="ss_input" type="text" data-select-search="sel1">
+                                                        <select class="form-control crs-country "  data-default-value data-region-id="one"
+                                                                required id="sel1">
+                                                        </select>
+                                                    </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
-                                                <select required class="form-control" id="one">
+                                                <select required class="form-control " id="one">
                                                 </select>
                                             </div>
                                         </div>
@@ -183,7 +186,8 @@
                                     <div class="tsf-step-content">
                                         <div class="row">
                                             <div class="col-md-6">
-                                                <select data-placeholder="All Categories" required class="chosen-select" >
+                                                <select data-placeholder="All Categories" required
+                                                        class="chosen-select">
                                                     <option value="">Type of Membership</option>
                                                     <option value="1">Independent tourist driver</option>
                                                     <option value="2">Tourism company</option>
@@ -191,7 +195,8 @@
                                                 </select>
                                             </div>
                                             <div class="col-md-6">
-                                                <select data-placeholder="All Categories" required class="chosen-select" >
+                                                <select data-placeholder="All Categories" required
+                                                        class="chosen-select">
                                                     <option value="">type of the vehicle</option>
                                                     <option value="1">VIP Care</option>
                                                     <option value="2">Family bus</option>
@@ -261,13 +266,18 @@
                                             <div class="col-md-6">
                                                 <p class="form-row form-row-wide ">
                                                     <label for="condition3" class="condition-label margin-bottom-0">
-                                                        <input type="checkbox" name="condition3" id="condition3" data-parsley-required-message="You must accept the terms "  data-parsley-required="true" >
-                                                        I hereby confirm i have one of the following tour guide qualifications-licence/certification/training.
+                                                        <input type="checkbox" name="condition3" id="condition3"
+                                                               data-parsley-required-message="You must accept the terms "
+                                                               data-parsley-required="true">
+                                                        I hereby confirm i have one of the following tour guide
+                                                        qualifications-licence/certification/training.
                                                     </label>
                                                 </p>
                                                 <p class="form-row form-row-wide ">
                                                     <label for="condition4" class="condition-label">
-                                                        <input type="checkbox" name="condition4" id="condition4" data-parsley-required-message="You must accept the terms "  data-parsley-required="true" >
+                                                        <input type="checkbox" name="condition4" id="condition4"
+                                                               data-parsley-required-message="You must accept the terms "
+                                                               data-parsley-required="true">
                                                         i agree to offer 10% discount to my first two bookings.
                                                     </label>
                                                 </p>
@@ -330,6 +340,65 @@
 <?php
 include "javascript.php";
 ?>
+<script>
+    var $search = $('[data-select-search]');
+    var $select = ('#sel1');
+    var $option = ('#sel1 option');
+
+    $($search).on('keyup change', function(){
+        var search_val = $(this).val();
+
+        if(search_val.length >= 1){
+            $($select).children().each(function(){
+                if(!$(this).text().toLowerCase().match(search_val)){
+                    $(this).hide();
+                }else{
+                    $(this).show();
+                }
+            });
+        }else{
+
+            $($select).children().each(function(){
+                $(this).show();
+                $($select).attr('size', $($select).children().length)
+            });
+
+        }
+    });
+
+    $($search).focus(function(){
+        $($select).attr('size', $($select).children().length)
+        $($select).css('top', $(this).outerHeight());
+        $($select).css('height', "250px");
+        $($select).css('z-idnex', '3');
+        $(this).css('color', 'inherit');
+        $($search).css('background', '#fff');
+
+        function reset(){
+            $($select).attr('size', 1)
+            $($select).css('top', 0);
+            $($select).css('z-idnex', '-1');
+            $($search).val($('option:selected').text())
+            $($search).css('color', 'transparent');
+            $($search).css('background', 'transparent');
+            $($select).css('height', "51px");
+        }
+
+        //close the list
+        $($select).change(function(){
+            reset();
+        });
+
+        $($search).blur(function(){
+            setTimeout(function(){
+                if(!$($select).is(":focus")){
+                    reset();
+                }
+            }, 50);
+        });
+
+    });
+</script>
 </body>
 
 </html>

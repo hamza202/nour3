@@ -886,3 +886,23 @@ span.status.reject{
         top: -10px;
     }
 }
+.ss_input {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    border: 0;
+}
+
+.select-search {
+    position: relative;
+    z-index: 2;
+}
+
+.select-search > select {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.ss_input{
+    background: transparent !important;
+}
