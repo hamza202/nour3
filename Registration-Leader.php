@@ -146,7 +146,7 @@
                                                 <div class="form-group">
                                                     <div class="select-search">
                                                         <input class="ss_input" type="text" data-select-search="sel1">
-                                                        <select class="form-control crs-country "  data-default-value data-region-id="one"
+                                                        <select class="form-control crs-country "  data-value="shortcode" data-region-id="one"
                                                                 required id="sel1">
                                                         </select>
                                                     </div>
@@ -343,7 +343,6 @@ include "javascript.php";
 <script>
     var $search = $('[data-select-search]');
     var $select = ('#sel1');
-    var $option = ('#sel1 option');
 
     $($search).on('keyup change', function(){
         var search_val = $(this).val();
@@ -378,7 +377,6 @@ include "javascript.php";
             $($select).attr('size', 1)
             $($select).css('top', 0);
             $($select).css('z-idnex', '-1');
-            $($search).val($('option:selected').text())
             $($search).css('color', 'transparent');
             $($search).css('background', 'transparent');
             $($select).css('height', "51px");
