@@ -746,10 +746,10 @@ label.error, label.error{
 /*///////////////////////
 Last update
 ////////////////////////*/
-.dashboard-content{
+.profile .dashboard-content{
     margin-left: 0;
 }
-#dashboard{
+#dashboard.profile{
     padding-top: 0 !important;
     padding-bottom: 80px;
 }
@@ -785,4 +785,104 @@ Last update
 h4.conditions-h5{
     color: #7fbd42;
     font-weight: 600;
+}
+
+.dashboard-content .dashboard-list-box{
+    background: #fff;
+}
+.padding-20{
+    padding: 20px;
+}
+.dashboard #logo a{
+    margin-left: 0;
+}
+.dashboard #logo{
+    text-align: center;
+}
+.dashboard #logo a.dashboard-logo{
+    margin-top: 8px;
+}
+
+@media (max-width: 1024px){
+    .dashboard #logo a img{
+        max-height: 66px;
+    }
+    .left-side{
+        height: 70px;
+    }
+}
+.tsf-wizard-2 .gsi-step-indicator.triangle li::after
+,.tsf-wizard-2  .gsi-step-indicator.triangle li>*::after{
+    top: 0px;
+}
+.tsf-wizard-2 .gsi-style-1 li .desc{
+    padding-top: 4px !important;
+    text-transform: capitalize;
+}
+.tsf-wizard-2 .gsi-style-1 li .desc label{
+    padding-bottom: 6px !important;
+}
+@media (max-width: 767px){
+    .tsf-wizard-2 .gsi-step-indicator.triangle li::after
+    ,.tsf-wizard-2  .gsi-step-indicator.triangle li>*::after{
+        display:none;
+    }
+    .dashboard-content{
+        min-height: 88vh;
+    }
+}
+.tsf-wizard-2 .edit-profile-photo{
+    text-align: center;
+}
+.tsf-wizard-2 .change-photo-btn{
+    left: 0;
+    right: 0;
+    max-width: 140px;
+    margin: 0 auto;
+}
+.tsf-wizard-2 .edit-profile-photo img{
+    max-width: 100%;
+    width: auto;
+    max-height: 185px;
+}
+.edit-profile-photo{
+    margin-bottom: 16px;
+}
+table.basic-table tr:nth-child(odd){
+    background-color: #f1f1f1;
+}
+.table-img{
+    max-width: 80px;
+}
+a.table-button{
+    border-radius: 5px !important;
+    padding: 5px 10px;
+}
+a.table-button:nth-child(2){
+    background-color: #0061ca;
+}
+span.status{
+    display: inline-block;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 50px;
+}
+span.status.approval{
+    background: #7fbe44;
+}
+span.status.waiting{
+    background: #e6b237;
+}
+span.status.reject{
+    background: #f91942;
+}
+[data-label="Status:"]{
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    .dashboard .header-widget {
+        padding: 20px 0;
+        top: -10px;
+    }
 }

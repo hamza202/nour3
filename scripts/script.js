@@ -42,9 +42,6 @@ $(document).ready(function() {
     }
 });
 
-$(function () {
-    pageLoadScript();
-});
 
 
 function pageLoadScript() {
@@ -69,6 +66,32 @@ function pageLoadScript() {
 
 
 }
+$(function () {
+    pageLoadScript();
+});
+
+function pageLoadScript2() {
+    _stepTransition = $('#stepTransition').is(':checked');
+    _showButtons = $('#showButtons').is(':checked');
+    _showStepNum = $('#showStepNum').is(':checked');
+
+
+    tsf1 = $('.tsf-wizard-2').tsfWizard({
+        stepEffect: 'basic',
+        stepStyle: 'style1',
+        navPosition: 'top',
+        validation: false,
+        stepTransition: _stepTransition,
+        showButtons: _showButtons,
+        showStepNum: _showStepNum,
+        height: 'auto',
+    });
+
+
+}
+$(function () {
+    pageLoadScript2();
+});
 // Also see: https://www.quirksmode.org/dom/inputfile.html
 
 var inputs = document.querySelectorAll('.file-input')

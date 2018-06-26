@@ -31,11 +31,11 @@
     <div class="clearfix"></div>
 
     <!-- Dashboard -->
-    <div id="dashboard">
+    <div id="dashboard profile">
 
         <!-- Content
         ================================================== -->
-        <div class="dashboard-content">
+        <div class="dashboard-content ">
 
             <!-- Titlebar -->
             <div id="titlebar">
