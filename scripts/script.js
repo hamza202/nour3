@@ -38,7 +38,7 @@ $(document).ready(function() {
         }
     });
     var appendsomething1 = function () {
-        $(".ui-datepicker-title").append("<div class='something'>Date of arrival</div>");
+        $(".ui-datepicker-title").append("<div class='something arrival-color'>Date of arrival</div>");
     }
 });
 

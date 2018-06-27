@@ -56,7 +56,7 @@
             Show stepNum <input type="checkbox" id="showStepNum" name="showStepNum" value="123" checked/>
         </label>
     </div>
-    <div class="  wizard-section">
+    <div class=" wizard-section">
         <div class="container">
             <div class="tsf-wizard tsf-wizard-1 ">
                 <div class="row">
@@ -134,7 +134,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <div class='file-input'>
-                                                    <input type='file'>
+                                                    <input type='file' required>
                                                     <span class='button'>Choose</span>
                                                     <span class='label' data-js-label>personal picture
                                                     </span>
@@ -313,8 +313,6 @@
                         <!-- END CONTROLS-->
                     </div>
                     <!-- END STEP CONTAINER -->
-
-
                 </div>
                 <!-- END STEP FORM WIZARD -->
                 <div class="clearfix"></div>
@@ -322,6 +320,65 @@
             </div>
         </div>
     </div>
+    <section class="leader-Features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="headline centered text-capitalize">
+                        Learn about our range of services
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/9D1vO-7tfZg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="icon-box-2 with-line">
+                                <i class="">
+                                    <img src="images/ticket.svg" alt="">
+                                </i>
+                                <h3>Booking by days and hours</h3>
+                                <p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="icon-box-2 ">
+                                <i class="">
+                                    <img src="images/ticket.svg" alt="">
+                                </i>
+                                <h3>Booking by days and hours</h3>
+                                <p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="icon-box-2 with-line">
+                                <i class="">
+                                    <img src="images/ticket.svg" alt="">
+                                </i>
+                                <h3>Booking by days and hours</h3>
+                                <p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="icon-box-2 ">
+                                <i class="">
+                                    <img src="images/ticket.svg" alt="">
+                                </i>
+                                <h3>Booking by days and hours</h3>
+                                <p>Faucibus ante, in porttitor tellus blandit et. Phasellus tincidunt metus lectus </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
     <!-- Footer

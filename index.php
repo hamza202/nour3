@@ -313,7 +313,7 @@
         <div class="featured-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3 col-xs-9">
+                    <div class="col-md-3 col-xs-6">
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/money.svg" alt="money">
                             <div class="media-body">
@@ -322,7 +322,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-md-offset-6 col-xs-9">
+                    <div class="col-md-3 col-md-offset-6 col-xs-6">
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/car1.svg" alt="money">
                             <div class="media-body">
@@ -333,7 +333,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-xs-9">
+                    <div class="col-md-3 col-xs-6">
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/calendar.svg" alt="money">
                             <div class="media-body">
@@ -343,7 +343,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-md-offset-6 col-xs-9">
+                    <div class="col-md-3 col-md-offset-6 col-xs-6">
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/approve-invoice.svg" alt="money">
                             <div class="media-body">
@@ -354,7 +354,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-xs-9">
+                    <div class="col-md-3 col-xs-6">
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/segment-path.svg" alt="money">
                             <div class="media-body">
@@ -364,7 +364,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-md-offset-6 col-xs-9">
+                    <div class="col-md-3 col-md-offset-6 col-xs-6">
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/present.svg" alt="money">
                             <div class="media-body">
@@ -375,7 +375,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-xs-9">
+                    <div class="col-md-3 col-xs-6">
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/responsive.svg" alt="money">
                             <div class="media-body">
@@ -386,7 +386,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3 col-md-offset-6 col-xs-9">
+                    <div class="col-md-3 col-md-offset-6 col-xs-6">
                         <div class="media mb-3">
                             <img class="align-self-start mr-3 img-fluid" src="images/tourist.svg" alt="money">
                             <div class="media-body">
