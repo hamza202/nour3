@@ -955,9 +955,6 @@ span.status.reject{
     }
 }
 
-.arrival-color{
-    color: #0046a0;
-}
 .leader-Features{
     background: #f9f9f9;
     padding: 50px 0;
@@ -985,3 +982,10 @@ span.status.reject{
     font-size: 15px;
     line-height: 20px;
 }
+.datepicker-blue  .ui-widget-header,.datepicker-blue .ui-state-default, .datepicker-blue .ui-widget-content .ui-state-default, .datepicker-blue .ui-widget-header .ui-state-default{
+    background: #771aaf;
+}
+
+/*///////////////////////
+Last update
+////////////////////////*/
