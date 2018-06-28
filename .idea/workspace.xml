@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da337ead-9f69-4d22-ba94-0c3c138caa8f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/costume.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/costume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javascript.php" beforeDir="false" afterPath="$PROJECT_DIR$/javascript.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -42,11 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="javascript.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="javascript.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
               <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/script.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -102,10 +109,10 @@
       <find>dashboard-nav</find>
       <find>mmenu-trigger</find>
       <find>transparent</find>
-      <find />
-      <find />
+      <find>the vehicle</find>
+      <find>Select regionType</find>
       <find>regionType</find>
-      <find />
+      <find>regionType of</find>
       <find>Select</find>
       <find>search_valsearch_val</find>
       <find>sell</find>
@@ -113,12 +120,12 @@
       <find>vehicle</find>
       <find>sel</find>
       <find>val</find>
-      <find />
+      <find>Departure Date</find>
       <find>select-search</find>
       <find>cho</find>
       <find>date1</find>
       <find>.arrival-color</find>
-      <find />
+      <find>Location Auto Complete</find>
       <find>autocomplete</find>
       <find>.ss_input</find>
       <find>C:\xampp\htdocs\dgo</find>
@@ -167,9 +174,9 @@
         <option value="$PROJECT_DIR$/drivers.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Registration-Leader.php" />
-        <option value="$PROJECT_DIR$/scripts/script.js" />
         <option value="$PROJECT_DIR$/css/costume.css" />
         <option value="$PROJECT_DIR$/javascript.php" />
+        <option value="$PROJECT_DIR$/scripts/script.js" />
       </list>
     </option>
   </component>
@@ -182,7 +189,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-30" />
     <option name="y" value="154" />
     <option name="width" value="1382" />
@@ -275,12 +282,12 @@
       <workItem from="1530047129061" duration="14437000" />
       <workItem from="1530102477100" duration="1204000" />
       <workItem from="1530136291102" duration="2650000" />
-      <workItem from="1530206727190" duration="3292000" />
+      <workItem from="1530206727190" duration="4052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144353000" />
+    <option name="totallyTimeSpent" value="145113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -554,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -591,6 +591,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
         </state>
       </provider>
     </entry>
