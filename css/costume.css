@@ -997,6 +997,21 @@ span.status.reject{
     right: 0;
     top: 16px;
 }
+.dashboard-list-box.green-bg{
+    background: #7fbe44;
+    margin: -15px;
+    margin-bottom: 17px;
+}
+.dashboard-list-box.green-bg h3{
+    color: #fff;
+}
+.add-drive-section{
+    border-radius: 3px;
+    border: 1px solid #e7e7e7;
+    padding: 15px;
+    margin-bottom: 30px;
+    padding-bottom: 2px;
+}
 @media (max-width: 767px) {
 
     .tsf-nav-step .update-btn{
@@ -1006,6 +1021,7 @@ span.status.reject{
         margin-bottom: 15px;
     }
 }
+
 /*///////////////////////
 Last update
 ////////////////////////*/
