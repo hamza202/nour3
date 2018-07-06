@@ -132,6 +132,7 @@
                     <div class="row">
                         <!-- BEGIN NAV STEP-->
                         <div class="tsf-nav-step ">
+
                             <!-- BEGIN STEP INDICATOR-->
                             <ul class="gsi-step-indicator triangle gsi-style-1  gsi-transition ">
                                 <li class="current" data-target="step-1">
@@ -162,6 +163,9 @@
                                 </li>
                             </ul>
                             <!-- END STEP INDICATOR--->
+                            <button type="submit" class="button update-btn">
+                                Update profile
+                            </button>
                         </div>
                         <!-- END NAV STEP-->
                         <!-- BEGIN STEP CONTAINER -->
@@ -180,11 +184,11 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="edit-profile-photo">
-                                                        <img class="profile-pic" src="images/user-avatar.jpg" alt="">
+                                                        <img class="profile-pic pic1" src="images/user-avatar.jpg" alt="">
                                                         <div class="change-photo-btn">
                                                             <div class="photoUpload">
                                                                 <span><i class="fa fa-upload"></i> Upload Photo</span>
-                                                                <input   type="file" class="upload file-upload" />
+                                                                <input   type="file" class="upload file-upload up1" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -215,9 +219,12 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="form-group">
-                                                        <select class="form-control crs-country" data-region-id="one"
-                                                                required id="sel1">
-                                                        </select>
+                                                        <div class="select-search">
+                                                            <input class="ss_input" type="text" data-select-search="sel1">
+                                                            <select class="form-control crs-country "  data-value="shortcode" data-region-id="one"
+                                                                    required id="sel1">
+                                                            </select>
+                                                        </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
@@ -295,22 +302,22 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="edit-profile-photo">
-                                                        <img class="profile-pic" src="images/user-avatar.jpg" alt="">
+                                                        <img class="profile-pic pic2" src="images/user-avatar.jpg" alt="">
                                                         <div class="change-photo-btn">
                                                             <div class="photoUpload">
                                                                 <span><i class="fa fa-upload"></i> Upload Photo</span>
-                                                                <input   type="file" class="upload file-upload" />
+                                                                <input   type="file" class="upload file-upload up2" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="edit-profile-photo">
-                                                        <img class="profile-pic" src="images/user-avatar.jpg" alt="">
+                                                        <img class="profile-pic pic3" src="images/user-avatar.jpg" alt="">
                                                         <div class="change-photo-btn">
                                                             <div class="photoUpload">
                                                                 <span><i class="fa fa-upload"></i> Upload Photo</span>
-                                                                <input   type="file" class="upload file-upload" />
+                                                                <input   type="file" class="upload file-upload up3" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -319,22 +326,22 @@
                                             <div class="row">
                                                 <div class="col-md-6">
                                                     <div class="edit-profile-photo">
-                                                        <img class="profile-pic" src="images/user-avatar.jpg" alt="">
+                                                        <img class="profile-pic pic4" src="images/user-avatar.jpg" alt="">
                                                         <div class="change-photo-btn">
                                                             <div class="photoUpload">
-                                                                <span><i class="fa fa-upload"></i> Upload Photo</span>
-                                                                <input   type="file" class="upload file-upload" />
+                                                                <span><i class="fa fa-upload "></i> Upload Photo</span>
+                                                                <input   type="file" class="upload file-upload up4" />
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <div class="edit-profile-photo">
-                                                        <img class="profile-pic" src="images/user-avatar.jpg" alt="">
+                                                        <img class="profile-pic pic5" src="images/user-avatar.jpg" alt="">
                                                         <div class="change-photo-btn">
                                                             <div class="photoUpload">
                                                                 <span><i class="fa fa-upload"></i> Upload Photo</span>
-                                                                <input   type="file" class="upload file-upload" />
+                                                                <input   type="file" class="upload file-upload up5" />
                                                             </div>
                                                         </div>
                                                     </div>
@@ -417,7 +424,63 @@
 include ('javascript.php')
 ?>
 
+<script>
+    var $search = $('[data-select-search]');
+    var $select = ('#sel1');
 
+    $($search).on('keyup change', function(){
+        var search_val = $(this).val();
+
+        if(search_val.length >= 1){
+            $($select).children().each(function(){
+                if(!$(this).text().toLowerCase().match(search_val)){
+                    $(this).hide();
+                }else{
+                    $(this).show();
+                }
+            });
+        }else{
+
+            $($select).children().each(function(){
+                $(this).show();
+                $($select).attr('size', $($select).children().length)
+            });
+
+        }
+    });
+
+    $($search).focus(function(){
+        $($select).attr('size', $($select).children().length)
+        $($select).css('top', $(this).outerHeight());
+        $($select).css('height', "250px");
+        $($select).css('z-idnex', '3');
+        $(this).css('color', 'inherit');
+        $($search).css('background', '#fff');
+
+        function reset(){
+            $($select).attr('size', 1)
+            $($select).css('top', 0);
+            $($select).css('z-idnex', '-1');
+            $($search).css('color', 'transparent');
+            $($search).css('background', 'transparent');
+            $($select).css('height', "51px");
+        }
+
+        //close the list
+        $($select).change(function(){
+            reset();
+        });
+
+        $($search).blur(function(){
+            setTimeout(function(){
+                if(!$($select).is(":focus")){
+                    reset();
+                }
+            }, 50);
+        });
+
+    });
+</script>
 </body>
 
 </html>

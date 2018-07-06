@@ -12,6 +12,7 @@
 <script type="text/javascript" src="scripts/waypoints.min.js"></script>
 <script type="text/javascript" src="scripts/counterup.min.js"></script>
 <script type="text/javascript" src="scripts/tooltips.min.js"></script>
+
 <script type="text/javascript" src="scripts/custom.js"></script>
 <script src="scripts/demo.js"></script>
 <script src="scripts/tsf-wizard-plugin.js"></script>

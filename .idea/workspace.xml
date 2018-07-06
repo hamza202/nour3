@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da337ead-9f69-4d22-ba94-0c3c138caa8f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/costume.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/costume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javascript.php" beforeDir="false" afterPath="$PROJECT_DIR$/javascript.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/my-profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/custom.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +20,8 @@
       <file leaf-file-name="costume.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/costume.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="960" lean-forward="true" selection-start-line="960" selection-end-line="960" />
+            <state relative-caret-position="547">
+              <caret line="1005" column="28" selection-start-line="1005" selection-start-column="28" selection-end-line="1005" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -25,7 +29,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
+            <state relative-caret-position="7616">
               <caret line="448" column="25" selection-start-line="448" selection-start-column="25" selection-end-line="448" selection-end-column="25" />
             </state>
           </provider>
@@ -43,17 +47,35 @@
       <file leaf-file-name="javascript.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javascript.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="238">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="950" column="11" selection-start-line="950" selection-start-column="11" selection-end-line="950" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-profile.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my-profile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="227" column="58" selection-start-line="227" selection-start-column="58" selection-end-line="227" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+            <state relative-caret-position="401">
+              <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -61,7 +83,7 @@
       <file leaf-file-name="crs.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/crs.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
+            <state relative-caret-position="547">
               <caret line="9" column="908" selection-start-line="9" selection-start-column="898" selection-end-line="9" selection-end-column="908" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -82,8 +104,11 @@
       <file leaf-file-name="Registration-Leader.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Registration-Leader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5661">
-              <caret line="333" column="52" selection-start-line="333" selection-start-column="52" selection-end-line="333" selection-end-column="52" />
+            <state relative-caret-position="235">
+              <caret line="145" column="48" lean-forward="true" selection-start-line="145" selection-start-column="48" selection-end-line="152" selection-end-column="54" />
+              <folding>
+                <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,13 +125,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>dashboard-nav-inner</find>
-      <find>dashboard.htmld</find>
-      <find>Howdy</find>
-      <find>tab</find>
-      <find>pageLoadScript</find>
-      <find>.dashboard-nav-inner</find>
-      <find>dashboard-nav</find>
       <find>mmenu-trigger</find>
       <find>transparent</find>
       <find>the vehicle</find>
@@ -130,6 +148,13 @@
       <find>.ss_input</find>
       <find>C:\xampp\htdocs\dgo</find>
       <find>initAutocomplete</find>
+      <find>file</find>
+      <find>uplo</find>
+      <find>file-upload</find>
+      <find>type=&quot;file&quot;</find>
+      <find>result</find>
+      <find>tsf-nav-step</find>
+      <find>Please fill out your personal information</find>
     </findStrings>
     <replaceStrings>
       <replace>7fbe44</replace>
@@ -162,7 +187,6 @@
         <option value="$PROJECT_DIR$/scripts/chosen.min.js" />
         <option value="$PROJECT_DIR$/forget-pass.php" />
         <option value="$PROJECT_DIR$/scripts/jquery-ui.js" />
-        <option value="$PROJECT_DIR$/scripts/custom.js" />
         <option value="F:/themforest/listeo-googlemap/www.vasterad.com/themes/listeo_updated/pages-elements.html" />
         <option value="$PROJECT_DIR$/faq.php" />
         <option value="$PROJECT_DIR$/Privacy.php" />
@@ -170,13 +194,15 @@
         <option value="$PROJECT_DIR$/profile.php" />
         <option value="$PROJECT_DIR$/dashboard.php" />
         <option value="$PROJECT_DIR$/add-driver.php" />
-        <option value="$PROJECT_DIR$/my-profile.php" />
         <option value="$PROJECT_DIR$/drivers.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/Registration-Leader.php" />
+        <option value="$PROJECT_DIR$/scripts/script.js" />
+        <option value="F:/themforest/listeo-googlemap/www.vasterad.com/themes/listeo_updated/scripts/custom.js" />
+        <option value="$PROJECT_DIR$/scripts/custom.js" />
         <option value="$PROJECT_DIR$/css/costume.css" />
         <option value="$PROJECT_DIR$/javascript.php" />
-        <option value="$PROJECT_DIR$/scripts/script.js" />
+        <option value="$PROJECT_DIR$/my-profile.php" />
       </list>
     </option>
   </component>
@@ -226,7 +252,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dgo-rtl" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -282,28 +308,28 @@
       <workItem from="1530047129061" duration="14437000" />
       <workItem from="1530102477100" duration="1204000" />
       <workItem from="1530136291102" duration="2650000" />
-      <workItem from="1530206727190" duration="4052000" />
+      <workItem from="1530206727190" duration="4652000" />
+      <workItem from="1530914944646" duration="3166000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145113000" />
+    <option name="totallyTimeSpent" value="148879000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21156661" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21156661" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -312,6 +338,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,9 +348,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/themforest/wizard-validate/stepform.cidcode.net/assets/js/demo.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://F:/themforest/wizard/stepform.cidcode.net/timon-7-5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -435,13 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-profile.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/style.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -516,16 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/crs.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="9" column="908" selection-start-line="9" selection-start-column="898" selection-end-line="9" selection-end-column="908" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1173">
@@ -540,31 +547,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Registration-Leader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5661">
-          <caret line="333" column="52" selection-start-line="333" selection-start-column="52" selection-end-line="333" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/costume.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="960" lean-forward="true" selection-start-line="960" selection-end-line="960" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
+        <state relative-caret-position="7616">
           <caret line="448" column="25" selection-start-line="448" selection-start-column="25" selection-end-line="448" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="843" column="44" selection-start-line="843" selection-start-column="44" selection-end-line="843" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -587,17 +573,65 @@
     <entry file="file://$PROJECT_DIR$/scripts/infobox.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript.php">
+    <entry file="file://F:/themforest/listeo-googlemap/www.vasterad.com/themes/listeo_updated/scripts/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        <state relative-caret-position="184">
+          <caret line="215" column="33" selection-start-line="215" selection-start-column="33" selection-end-line="215" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+        <state relative-caret-position="401">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/crs.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="9" column="908" selection-start-line="9" selection-start-column="898" selection-end-line="9" selection-end-column="908" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="950" column="11" selection-start-line="950" selection-start-column="11" selection-end-line="950" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/costume.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="1005" column="28" selection-start-line="1005" selection-start-column="28" selection-end-line="1005" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Registration-Leader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="145" column="48" lean-forward="true" selection-start-line="145" selection-start-column="48" selection-end-line="152" selection-end-column="54" />
+          <folding>
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="227" column="58" selection-start-line="227" selection-start-column="58" selection-end-line="227" selection-end-column="58" />
         </state>
       </provider>
     </entry>

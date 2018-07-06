@@ -846,7 +846,7 @@ $(document).ready(function() {
             var reader = new FileReader();
 
             reader.onload = function (e) {
-                $('.profile-pic').attr('src', e.target.result);
+                $('.pic1').attr('src', e.target.result);
             };
 
             reader.readAsDataURL(input.files[0]);
@@ -854,7 +854,101 @@ $(document).ready(function() {
     };
 
 
-    $(".file-upload").on('change', function(){
+    $(".up1").on('change', function(){
+        readURL(this);
+    });
+
+
+});
+
+$(document).ready(function() {
+
+
+    var readURL = function(input=['file']) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.pic2').attr('src', e.target.result);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    };
+
+
+    $(".up2").on('change', function(){
+        readURL(this);
+    });
+
+
+});
+
+
+$(document).ready(function() {
+
+
+    var readURL = function(input=['file']) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.pic3').attr('src', e.target.result);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    };
+
+
+    $(".up3").on('change', function(){
+        readURL(this);
+    });
+
+
+});
+
+
+$(document).ready(function() {
+
+
+    var readURL = function(input=['file']) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.pic4').attr('src', e.target.result);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    };
+
+
+    $(".up4").on('change', function(){
+        readURL(this);
+    });
+
+});
+
+
+$(document).ready(function() {
+
+
+    var readURL = function(input=['file']) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+
+            reader.onload = function (e) {
+                $('.pic5').attr('src', e.target.result);
+            };
+
+            reader.readAsDataURL(input.files[0]);
+        }
+    };
+
+
+    $(".up5").on('change', function(){
         readURL(this);
     });
 

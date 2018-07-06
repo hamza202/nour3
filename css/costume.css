@@ -989,7 +989,23 @@ span.status.reject{
 .datepicker-blue  .ui-widget-header,.datepicker-blue .ui-state-default, .datepicker-blue .ui-widget-content .ui-state-default, .datepicker-blue .ui-widget-header .ui-state-default{
     background: #771aaf;
 }
+.tsf-nav-step{
+    position: relative;
+}
+.tsf-nav-step .update-btn{
+    position: absolute;
+    right: 0;
+    top: 16px;
+}
+@media (max-width: 767px) {
 
+    .tsf-nav-step .update-btn{
+        position: static;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 15px;
+    }
+}
 /*///////////////////////
 Last update
 ////////////////////////*/
