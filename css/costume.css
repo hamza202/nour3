@@ -1012,6 +1012,15 @@ span.status.reject{
     margin-bottom: 30px;
     padding-bottom: 2px;
 }
+.file-input .parsley-errors-list li{
+    margin-bottom: -5px;
+}
+#add-drive-form .add-drive-section:nth-child(3) .file-input{
+    margin: 1px 0 27px 0;
+}
+.add-drive-section .form-row.form-row-wide label{
+    margin-bottom: 14px !important;
+}
 @media (max-width: 767px) {
 
     .tsf-nav-step .update-btn{

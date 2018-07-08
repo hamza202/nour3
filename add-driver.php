@@ -123,7 +123,7 @@
                 </div>
             </div>
 
-            <form action="#">
+            <form id="add-drive-form" action="#">
                 <div class="add-drive-section">
                     <div class="dashboard-list-box  green-bg with-icons ">
                         <h3 class="padding-20 margin-top-0">
@@ -157,7 +157,7 @@
                         </div>
                         <div class="col-md-6">
                             <div class='file-input'>
-                                <input type='file'>
+                                <input type='file' required>
                                 <span class='button'>Choose</span>
                                 <span class='label' data-js-label>personal picture
                                                     </span>

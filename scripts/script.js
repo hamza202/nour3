@@ -123,3 +123,4 @@ if ($(window).width() < 768) {
         }, 1000); // in 1000 ms (1 second)
     });
 }
+$('#add-drive-form').parsley();
