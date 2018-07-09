@@ -4,7 +4,7 @@
 <!-- CSS
 ================================================== -->
 <link href="css/gsi-step-indicator.min.css" rel="stylesheet" />
-
+<link href="css/lightgallery.css" rel="stylesheet" />
 <link rel="stylesheet" href="css/tsf-step-form-wizard.min.css">
 <link href="css/demo.min.css" rel="stylesheet" />
 <link href="css/parsley.min.css" rel="stylesheet" />
