@@ -1169,6 +1169,23 @@ span#lg-share{
 .lg-backdrop,.lg-outer{
     z-index: 9999;
 }
+table.basic-table th,table.basic-table td{
+    vertical-align: middle !important;
+}
+@media (max-width: 600px) {
+    table.basic-table [data-label="Image:"],[data-label="Status:"]{
+        text-align: right;
+    }
+    table.basic-table .table-img{
+        display: inline-block;
+    }
+    table.basic-table a.button{
+        margin-right: 0;
+        margin-left: 6px;
+    }
+
+
+}
 /*///////////////////////
 Last update
 ////////////////////////*/
