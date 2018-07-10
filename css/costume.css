@@ -1049,7 +1049,12 @@ span.status.reject{
         margin-bottom: 15px;
     }
 }
-
+.lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover{
+    border-color: #7fbe44;
+}
+.lg-progress-bar .lg-progress{
+    background-color:#7fbe44 ;
+}
 .demo-gallery > ul {
     margin-bottom: 0;
 }
@@ -1160,9 +1165,6 @@ span#lg-share{
 }
 .demo-gallery.dark > ul > li a {
     border: 3px solid #04070a;
-}
-.demo-gallery {
-    padding-bottom: 80px;
 }
 .lg-backdrop,.lg-outer{
     z-index: 9999;
