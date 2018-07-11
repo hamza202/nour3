@@ -65,7 +65,20 @@
                     <!-- Header Widget / End -->
                 </div>
                 <!-- Right Side Content / End -->
+                <div class="left-side1">
+                    <div class="header-widget">
+                        <!-- User Menu -->
+                        <div class="user-menu">
+                            <div class="user-name">language
+                            </div>
+                            <ul>
+                                <li><a href="#"> English</a></li>
+                                <li><a href="#"> العربية</a></li>
 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Header / End -->
@@ -169,7 +182,8 @@
                             <div class="form-group">
                                 <div class="select-search">
                                     <input class="ss_input" type="text" data-select-search="sel1">
-                                    <select class="form-control crs-country "  data-value="shortcode" data-region-id="one"
+                                    <select class="form-control crs-country " data-value="shortcode"
+                                            data-region-id="one"
                                             required id="sel1">
                                     </select>
                                 </div>
@@ -332,20 +346,20 @@ include('javascript.php')
     var $search = $('[data-select-search]');
     var $select = ('#sel1');
 
-    $($search).on('keyup change', function(){
+    $($search).on('keyup change', function () {
         var search_val = $(this).val();
 
-        if(search_val.length >= 1){
-            $($select).children().each(function(){
-                if(!$(this).text().toLowerCase().match(search_val)){
+        if (search_val.length >= 1) {
+            $($select).children().each(function () {
+                if (!$(this).text().toLowerCase().match(search_val)) {
                     $(this).hide();
-                }else{
+                } else {
                     $(this).show();
                 }
             });
-        }else{
+        } else {
 
-            $($select).children().each(function(){
+            $($select).children().each(function () {
                 $(this).show();
                 $($select).attr('size', $($select).children().length)
             });
@@ -353,7 +367,7 @@ include('javascript.php')
         }
     });
 
-    $($search).focus(function(){
+    $($search).focus(function () {
         $($select).attr('size', $($select).children().length)
         $($select).css('top', $(this).outerHeight());
         $($select).css('height', "250px");
@@ -361,7 +375,7 @@ include('javascript.php')
         $(this).css('color', 'inherit');
         $($search).css('background', '#fff');
 
-        function reset(){
+        function reset() {
             $($select).attr('size', 1)
             $($select).css('top', 0);
             $($select).css('z-idnex', '-1');
@@ -371,13 +385,13 @@ include('javascript.php')
         }
 
         //close the list
-        $($select).change(function(){
+        $($select).change(function () {
             reset();
         });
 
-        $($search).blur(function(){
-            setTimeout(function(){
-                if(!$($select).is(":focus")){
+        $($search).blur(function () {
+            setTimeout(function () {
+                if (!$($select).is(":focus")) {
                     reset();
                 }
             }, 50);

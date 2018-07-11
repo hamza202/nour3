@@ -31,7 +31,7 @@
     <div class="clearfix"></div>
 
     <!-- Dashboard -->
-    <div id="dashboard profile">
+    <div class="dashboard-profile" id="dashboard profile">
 
         <!-- Content
         ================================================== -->

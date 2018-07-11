@@ -33,8 +33,9 @@
                     <!-- Breadcrumbs -->
                     <nav id="breadcrumbs">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li>Registration of the tourist leader</li>
+                            <li class="leader-login"><h4>do you have an account? <a
+                                            href="#sign-in-dialog-leader-Tourist"
+                                            class="sign-in popup-with-zoom-anim header-login"> Sign in </a></h4></li>
                         </ul>
                     </nav>
 
@@ -127,9 +128,9 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <!--                                                    <label for="Phone">Phone Number</label>-->
-                                                    <input type="text" class="form-control required"
-                                                           data-parsley-type="digits" id="Phone" name="Phone"
-                                                           placeholder="Phone Number">
+                                                    <inRegistration-Leader.php data-parsley-type="digits" id="Phone"
+                                                                               name="Phone"
+                                                                               placeholder="Phone Number">
                                                 </div>
                                             </div>
                                             <div class="col-md-6">
@@ -146,7 +147,8 @@
                                                 <div class="form-group">
                                                     <div class="select-search">
                                                         <input class="ss_input" type="text" data-select-search="sel1">
-                                                        <select class="form-control crs-country "  data-value="shortcode" data-region-id="one"
+                                                        <select class="form-control crs-country " data-value="shortcode"
+                                                                data-region-id="one"
                                                                 required id="sel1">
                                                         </select>
                                                     </div>
@@ -331,7 +333,8 @@
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/9D1vO-7tfZg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/9D1vO-7tfZg" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-6">
                     <div class="row">
@@ -380,7 +383,60 @@
         </div>
     </section>
 
+    <!-- Sign In Popup / End -->
 
+
+    <div id="sign-in-dialog-leader-Tourist" class=" sign-in-dialog zoom-anim-dialog mfp-hide">
+
+        <div class="small-dialog-header">
+            <h3>tourist leader Log in </h3>
+        </div>
+
+        <!--Tabs -->
+        <div class="sign-in-form style-1">
+
+            <ul class="tabs-nav">
+                <li class=""><a href="#tab1">Log in</a></li>
+
+            </ul>
+
+            <div class="tabs-container alt">
+
+                <!-- Login -->
+                <div class="tab-content" id="tab1">
+                    <form id="LogingForm" method="post" class="login" action="#">
+                        <input type="hidden" name="_token" value="fCL69Q51R2HwBa4HjGz0D9IGeB3KlsbmJVgp9vK2">
+                        <p class="form-row form-row-wide">
+                            <label for="Email1">Email:
+                                <i class="im im-icon-Mail"></i>
+                                <input type="email" class="input-text" name="email" id="Email1" required
+                                />
+                            </label>
+                        </p>
+                        <p class="form-row form-row-wide">
+                            <label for="password">Password:
+                                <i class="im im-icon-Lock-2"></i>
+                                <input class="input-text" type="password" name="password" id="password"/>
+                            </label>
+
+                            <span class="lost_password">
+                                <a href="#">Forgot your password?</a>
+                            </span>
+                        </p>
+                        <div class="form-row clearfix">
+                            <input type="submit" class="button border margin-top-5" name="login"
+                                   value="Log in"/>
+                            <div class="checkboxes margin-top-10">
+                                <input id="remember-me" type="checkbox" name="remember">
+                                <label for="remember-me">Remember me</label>
+                            </div>
+                        </div>
+                        <br>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Footer
     ================================================== -->
     <?php
@@ -401,20 +457,20 @@ include "javascript.php";
     var $search = $('[data-select-search]');
     var $select = ('#sel1');
 
-    $($search).on('keyup change', function(){
+    $($search).on('keyup change', function () {
         var search_val = $(this).val();
 
-        if(search_val.length >= 1){
-            $($select).children().each(function(){
-                if(!$(this).text().toLowerCase().match(search_val)){
+        if (search_val.length >= 1) {
+            $($select).children().each(function () {
+                if (!$(this).text().toLowerCase().match(search_val)) {
                     $(this).hide();
-                }else{
+                } else {
                     $(this).show();
                 }
             });
-        }else{
+        } else {
 
-            $($select).children().each(function(){
+            $($select).children().each(function () {
                 $(this).show();
                 $($select).attr('size', $($select).children().length)
             });
@@ -422,7 +478,7 @@ include "javascript.php";
         }
     });
 
-    $($search).focus(function(){
+    $($search).focus(function () {
         $($select).attr('size', $($select).children().length)
         $($select).css('top', $(this).outerHeight());
         $($select).css('height', "250px");
@@ -430,7 +486,7 @@ include "javascript.php";
         $(this).css('color', 'inherit');
         $($search).css('background', '#fff');
 
-        function reset(){
+        function reset() {
             $($select).attr('size', 1)
             $($select).css('top', 0);
             $($select).css('z-idnex', '-1');
@@ -440,13 +496,13 @@ include "javascript.php";
         }
 
         //close the list
-        $($select).change(function(){
+        $($select).change(function () {
             reset();
         });
 
-        $($search).blur(function(){
-            setTimeout(function(){
-                if(!$($select).is(":focus")){
+        $($search).blur(function () {
+            setTimeout(function () {
+                if (!$($select).is(":focus")) {
                     reset();
                 }
             }, 50);
